@@ -28,17 +28,13 @@
   ## Outcome
   * It is optimized for SEO and ARIA accessibility 
   * It is responsive to different screen sizes of devices such as mobile, tablet, and desktop.
-
-  The user should be able to:
-  * Sort the table by at least one category
-  * Filter the users by at least one property.
   
   ## Project URL
   https://github.com/johnsonr84/react-portfolio
 
   ## Website Link
-  https://www.devdork.com/
-  https://johnsonr84.github.io/react-portfolio/
+  * [Devdork](https://www.devdork.com/)
+  * [https://johnsonr84.github.io/react-portfolio/](https://johnsonr84.github.io/react-portfolio/)
 
   ## Screenshots
   <table>
@@ -57,7 +53,7 @@
 
   ## Installation 
   * Access to GitHub.com and a code editor such as vscode is necessary
-  * Go to [https://github.com/johnsonr84.github.io/react-portfolio](https://github.com/johnsonr84.github.io/react-portfolio)
+  * Go to [https://github.com/johnsonr84/react-portfolio](https://github.com/johnsonr84/react-portfolio)
   * Click on the green button that says Clone or Download
   * Choose how you would like to download: using the SSH/HTTPS keys or download the zip file
   * Using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git repo, cd into the repo and type open. to open the folder which contains all files used for the website. Once inside the folder, click on index.html to open the website in the browser.
@@ -93,3 +89,4 @@
 
   ## Designed and built by
   Author(s): Rob Johnson  
+  GitHub: https://github.com/johnsonr84/ 
