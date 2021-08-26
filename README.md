@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
+  [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/react-portfolio)
+  [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/react-portfolio)
+  [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+  [![node.js](https://img.shields.io/node/v/c?color=brightgreen)](https://nodejs.org/en/)
+  [![npm](https://img.shields.io/npm/v/npm?color=blue&logo=npm)](https://www.npmjs.com/package/inquirer)
 
-## Available Scripts
+  ## Table of Contents 
+  * [Description](#Description)
+  * [Outcome](#Outcome)
+  * [Project URL](#Project-URL)
+  * [Website Link](#WebsiteLink)
+  * [Screenshots](#Screenshots)
+  * [Technologies](#Technologies)
+  * [Installation](#Installation)
+  * [Credits](#Credits)
+  * [License](#License)
+  * [Resources](#Resources)
+  * [Contact](#Contact)
+  * [Designed and built by](#Designed-and-built-by)
+  #
+  
+  ## Description 
+  React Portfolio website that showcases various projects, information about myself, how to contact me and my current resume.
+  
+  ## Outcome
+  * It is optimized for SEO and ARIA accessibility 
+  * It is responsive to different screen sizes of devices such as mobile, tablet, and desktop.
 
-In the project directory, you can run:
+  The user should be able to:
+  * Sort the table by at least one category
+  * Filter the users by at least one property.
+  
+  ## Project URL
+  https://github.com/johnsonr84/react-portfolio
 
-### `npm start`
+  ## Website Link
+  https://www.devdork.com/
+  https://johnsonr84.github.io/react-portfolio/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  ## Screenshots
+  <table>
+    <tr>
+      <td>react-portfolio example</td>
+    </tr>
+    <tr>
+      <td><img src="" height=600 alt="screenshot of react-portfolio"></td>
+    </tr>
+  </table>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  ## Technologies 
+  ```
+  React, React Router Dom, React Router, React Router Hash Link, ReactStrap, Bootstrap, Javascript
+  ```
 
-### `npm test`
+  ## Installation 
+  * Access to GitHub.com and a code editor such as vscode is necessary
+  * Go to [https://github.com/johnsonr84.github.io/react-portfolio](https://github.com/johnsonr84.github.io/react-portfolio)
+  * Click on the green button that says Clone or Download
+  * Choose how you would like to download: using the SSH/HTTPS keys or download the zip file
+  * Using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git repo, cd into the repo and type open. to open the folder which contains all files used for the website. Once inside the folder, click on index.html to open the website in the browser.
+  * Using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and open it. All the files for the website will be within this folder. Click on index.html to open the website in the browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## Credits 
+  I would like to creadit the University of Utah Coding Bootcamp for teaching me the skills necessary to complete this wonderful portfolio and the various project contained on the portfolio page.  
 
-### `npm run build`
+  ## License 
+  This project is [mit](https://choosealicense.com/licenses/mit/) licensed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ## Resources
+  * [Choose a License](https://choosealicense.com/)
+  * [Badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  * [shields.io](https://shields.io/)
+  * [w3schools](https://www.w3schools.com/)
+  * [stackoverflow.com](https://stackoverflow.com/)
+  * [YouTube](https://www.youtube.com/)
+  * [React.js](https://reactjs.org/)
+  * [Reactstrap](https://reactstrap.github.io/)
+  * [React Router documentation on HashRouter](https://reactrouter.com/web/api/HashRouter)
+  * [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+  * [GitHub note on client-side routing](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing)
+  * [Components and Props](https://reactjs.org/docs/components-and-props.html#es6-classes)
+  * [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+  * [19-React-Activities](19-React-Activities)
+  * [20-State-Activities](20-State-Activities)
+  * [gh-pages](https://www.npmjs.com/package/gh-pages)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ## Contact
+  Email: robertcjohnson1984@gmail.com 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ## Designed and built by
+  Author(s): Rob Johnson  
