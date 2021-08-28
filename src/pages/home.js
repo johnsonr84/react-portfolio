@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import rob_1 from "../assets/images/rob/rob-6.png";
+import homePNG from "../assets/images/rob/rob-6.png";
 
 const Home = (props) => {
     return (
@@ -21,8 +21,7 @@ const Home = (props) => {
                         evening Zoom classes.
                     </p>
                 </Col>
-                <Col><img src={rob_1} className="img-fluid" alt="..." /></Col>
-
+                <Col><img src={homePNG} className="img-fluid" alt="..." /></Col>
             </Row>
         </Container>
 
