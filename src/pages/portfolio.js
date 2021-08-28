@@ -1,12 +1,13 @@
 import React from 'react';
 import {Container, Row, Col } from 'react-bootstrap';
+import portfolioPNG from "../assets/images/rob/rob-6.png";
 
 const Portfolio = (props) => {
     return (
     <Container>
         <Row>
-            <Col><img src="public/assets/img/rob/rob-1.png" class="img-fluid" alt="..."></img></Col>
-            <Col><h1>Hello everyone</h1></Col>
+            <Col><img src={portfolioPNG} className="img-fluid" alt="..." /></Col>
+            <Col><h1>Portfolio</h1></Col>
         </Row>
     </Container>
  )
