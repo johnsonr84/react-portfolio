@@ -1,12 +1,12 @@
 import React from "react";
+import './App.css';
 import Home from "./pages/home"
 import Portfolio from "./pages/portfolio"
 import Story from "./pages/story"
 import Contact from "./pages/contact"
 import Navbar from './components/Navbar'
 import {  Route, Switch } from "react-router-dom";
-import './App.css';
-// import Portfolio from "./pages/portfolio";
+
 
 function App() {
   return (
