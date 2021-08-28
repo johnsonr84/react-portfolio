@@ -16,15 +16,15 @@ const CustomNavbar = (props) => {
                     <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
                     <Nav.Link href="#Story">Story</Nav.Link>
                     <Nav.Link href="#Contact">Contact</Nav.Link>
-                    <Nav.Link href="#Resume">Resume</Nav.Link>
+                    <Nav.Link href="https://www.visualcv.com/robert-johnson/" target="none">Resume</Nav.Link>
                     <NavDropdown title="Menu" id="navbarScrollingDropdown">
                         <NavDropdown.Item href="#">DevDork</NavDropdown.Item>
                         <NavDropdown.Item href="#Portfolio">Portfolio</NavDropdown.Item>
                         <NavDropdown.Item href="#Story">Story</NavDropdown.Item>
                         <NavDropdown.Item href="#Contact">Contact</NavDropdown.Item>
-                        <NavDropdown.Item href="#Resume">Resume</NavDropdown.Item>
+                        <NavDropdown.Item href="https://www.visualcv.com/robert-johnson/" target="none">Resume</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">Github</NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/johnsonr84" target="none">Github</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
