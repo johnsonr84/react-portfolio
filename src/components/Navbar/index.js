@@ -1,34 +1,63 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Container, Nav, Row, Col, NavDropdown } from 'react-bootstrap';
 import "./style.css"
 
 const CustomNavbar = (props) => {
     return (
-        <Navbar className="justify-content-center text-center">
-            <Navbar.Brand href="#">DevDork</Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-                <Nav
-                    className="mr-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px' }}
-                    navbarScroll
-                >
-                    <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-                    <Nav.Link href="#Story">Story</Nav.Link>
-                    <Nav.Link href="#Contact">Contact</Nav.Link>
-                    <Nav.Link href="https://www.visualcv.com/robert-johnson/" target="none">Resume</Nav.Link>
-                    <NavDropdown title="Menu" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#">DevDork</NavDropdown.Item>
-                        <NavDropdown.Item href="#Portfolio">Portfolio</NavDropdown.Item>
-                        <NavDropdown.Item href="#Story">Story</NavDropdown.Item>
-                        <NavDropdown.Item href="#Contact">Contact</NavDropdown.Item>
-                        <NavDropdown.Item href="https://www.visualcv.com/robert-johnson/" target="none">Resume</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="https://github.com/johnsonr84" target="none">Github</NavDropdown.Item>
-                    </NavDropdown>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+
+        <Container className="">
+            <Row>
+                <Navbar className="navbar">
+
+                    <Col>
+                        <Nav>
+                            <ul>
+                                <li>
+                                    <Navbar.Brand href="#">DevDork</Navbar.Brand>
+                                </li>
+                                <li>
+                                    <p>by Rob Johnson</p>
+                                </li>
+                            </ul>
+                        </Nav>
+                    </Col>
+                   
+                    <Col xs={6}>
+                        <Nav className="pages justify-content-center p-2">
+                            <Nav.Item>
+                                <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="#Story">Story</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="#Contact">Contact</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="https://www.visualcv.com/robert-johnson/" target="none">Résumé</Nav.Link>
+                            </Nav.Item>
+                        </Nav>
+                    </Col>
+                   
+                    <Col>
+                        <Nav className="justify-content-end pb-2">
+                            <NavDropdown title="Menu">
+                            <NavDropdown.Item href="#">DevDork</NavDropdown.Item>
+                            <NavDropdown.Item href="#Portfolio">Portfolio</NavDropdown.Item>
+                            <NavDropdown.Item href="#Story">Story</NavDropdown.Item>
+                            <NavDropdown.Item href="#Contact">Contact</NavDropdown.Item>
+                            <NavDropdown.Item href="https://www.visualcv.com/robert-johnson/" target="none">Resume</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="https://github.com/johnsonr84" target="none">Github</NavDropdown.Item>
+                            </NavDropdown>
+                        </Nav>
+                    </Col>
+
+                </Navbar >
+            </Row>
+        </Container>
+
+
     )
 }
 
