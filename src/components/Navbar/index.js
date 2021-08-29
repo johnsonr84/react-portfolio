@@ -16,7 +16,7 @@ const CustomNavbar = (props) => {
                                     <Navbar.Brand href="#">DevDork</Navbar.Brand>
                                 </li>
                                 <li>
-                                    <p>by Rob Johnson</p>
+                                    {/* <p>by Rob Johnson</p> */}
                                 </li>
                             </ul>
                         </Nav>

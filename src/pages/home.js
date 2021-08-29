@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import homePNG from "../assets/images/rob/rob-2.png";
+import homePNG from "../assets/images/rob/rob-5.png";
 
 const Home = (props) => {
     return (
         <Container>
             <Row className="display-flex align-items-center mx-auto">
-                <Col sm={4}>
+                <Col md={4}>
                     {/* <h1 class="main-title">Hey!</h1><small>Thanks for stopping by. </small> */}
                     <p>
                         I am Rob, a <b class="front-end">Full Stack Developer </b>
@@ -21,7 +21,7 @@ const Home = (props) => {
                         I consider myself fortunate to do what I love daily.
                     </p>
                 </Col >
-                <Col sm={8}><img src={homePNG} className="img-fluid" alt="..." /></Col>
+                <Col md={8}><img src={homePNG} className="img-fluid" alt="..." /></Col>
             </Row>
         </Container>
 
