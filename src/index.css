@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.front-end {
+  color: black;
+  padding-top: 3rem;
+  font-size: 20px;
+  font-weight: 500;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+.word-press {
+  color: black;
+  font-size: 20px;
+  font-weight: 500; 
+  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 8s; /* Firefox < 16 */
+  -ms-animation: fadein 8s; /* Internet Explorer */
+  -o-animation: fadein 8s; /* Opera < 12.1 */
+  animation: fadein 8s;
+}
+
+.full-stack {
+  color: black;
+  font-size: 24px;
+  font-weight: 700; 
+  -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 12s; /* Firefox < 16 */
+  -ms-animation: fadein 12s; /* Internet Explorer */
+  -o-animation: fadein 12s; /* Opera < 12.1 */
+  animation: fadein 12s;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import homePNG from "../assets/images/rob/rob-6.png";
+import homePNG from "../assets/images/rob/rob-2.png";
 
 const Home = (props) => {
     return (
         <Container>
-            <Row>
+            <Row className="display-flex">
                 <Col>
                     <h1 class="main-title">Hey!</h1><small>Thanks for stopping by. </small>
                     <p>

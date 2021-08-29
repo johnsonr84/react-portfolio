@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import './index.css';
 import Home from "./pages/home"
 import Portfolio from "./pages/portfolio"
 import Story from "./pages/story"
