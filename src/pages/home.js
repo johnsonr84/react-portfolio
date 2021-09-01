@@ -9,7 +9,7 @@ const Home = (props) => {
                 <Col md={4}>
                     {/* <h1 class="main-title">Hey!</h1><small>Thanks for stopping by. </small> */}
                     <p>
-                        I am Rob, a <b class="front-end">Full Stack Developer </b>
+                        Heyo, I am Rob! A <b class="front-end">Full Stack Developer </b>
                         who is passionate about building projects to provide solutions and help
                         others.
                     </p>
