@@ -7,7 +7,7 @@ const Portfolio = (props) => {
     return (
         <Container>
             <Row className="display-flex align-items-center justify-content-center mx-auto">
-                <Col><img src={portfolioPNG} className="img-fluid" alt="..." /></Col>
+                <Col md={8}><img src={portfolioPNG} className="img-fluid" alt="..." min-height="10vh" width="auto"/></Col>
                 <Col md={4}>
                     <p>
                         My humble <b class="front-end">Portfolio</b> features a variety of <b
