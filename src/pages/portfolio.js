@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap';
 import portfolioPNG from "../assets/images/rob/rob-6.png";
 import projectOne from "../assets/images/project-1.png";
+import projectThree from "../assets/images/project-3.png";
 import placeholderPNG from "../assets/images/150.png";
 
 const Portfolio = (props) => {
@@ -56,7 +57,7 @@ const Portfolio = (props) => {
                         </Card.Footer>
                     </Card>
                     <Card className="projectThree m-1">
-                        <Card.Img variant="top" src={placeholderPNG} />
+                        <Card.Img variant="top" src={projectThree} />
                         <a href="https://voyagr.netlify.app/" target="blank"></a>
                         <Card.Body>
                             <Card.Title>Voyagr</Card.Title>
