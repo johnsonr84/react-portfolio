@@ -12,17 +12,13 @@ const Portfolio = (props) => {
                 <Col md={8}><img src={portfolioPNG} className="img-fluid" alt="..." min-height="10vh" width="auto" /></Col>
                 <Col md={4}>
                     <p>
-                        My humble <b class="front-end">Portfolio</b> features a variety of <b
-                            class="word-press">Projects</b>
-                    built with various programming languages and libraries.
+                        My humble features a variety of Projects built with various programming languages and libraries.
                 </p>
                     <p>
-                        In the first section, you will find Projects 1,2 and 3 from my successfully completed <b
-                            class="full-stack">Full Stack</b> University of Utah Coding Bootcamp.
+                        In the first section, you will find Projects 1,2 and 3 from my successfully completed Full Stack University of Utah Coding Bootcamp.
                 </p>
-                    <p class="">
-                        In the second section, you will find samples of some of my assignments from my <b
-                            class="full-stack text-color-red">University of Utah</b> Coding Bootcamp.
+                    <p>
+                        In the second section, you will find samples of some of my assignments from my University of Utah Coding Bootcamp.
                 </p>
                 </Col >
             </Row>
