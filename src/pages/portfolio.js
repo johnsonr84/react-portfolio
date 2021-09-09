@@ -9,17 +9,20 @@ const Portfolio = (props) => {
     return (
         <Container>
             <Row className="display-flex align-items-center justify-content-center mx-auto">
-                <Col md={8}><img src={portfolioPNG} className="img-fluid" alt="..." min-height="10vh" width="auto" /></Col>
+                <Col md={8}><img src={portfolioPNG} className="img-fluid" alt="..." /></Col>
                 <Col md={4}>
+                    <h3>
+                        Let's Build Something!
+                    </h3>
                     <p>
-                        My humble features a variety of Projects built with various programming languages and libraries.
-                </p>
+                        My portfolio features a variety of Projects built with various programming languages and libraries.
+                    </p>
                     <p>
                         In the first section, you will find Projects 1,2 and 3 from my successfully completed Full Stack University of Utah Coding Bootcamp.
-                </p>
+                    </p>
                     <p>
                         In the second section, you will find samples of some of my assignments from my University of Utah Coding Bootcamp.
-                </p>
+                    </p>
                 </Col >
             </Row>
             <Row>
@@ -31,8 +34,8 @@ const Portfolio = (props) => {
                             <Card.Title>Restaurant Roulette</Card.Title>
                             <p>Project 1</p>
                             <Card.Text>
-                            App asks users to enter basic criteria of what they are looking for (cuisine, location/distance, etc). Will populate a “spin the wheel” button that picks a random result and then links map/delivery links. API’s that we used: zippopotamus, zomato, google maps…
-      </Card.Text>
+                                App asks users to enter basic criteria of what they are looking for (cuisine, location/distance, etc). Will populate a “spin the wheel” button that picks a random result and then links map/delivery links. API’s that we used: zippopotamus, zomato, google maps…
+                            </Card.Text>
                         </Card.Body>
                         <Card.Footer>
                             <small className="text-muted">Last updated 3 mins ago</small>
@@ -45,7 +48,7 @@ const Portfolio = (props) => {
                             <Card.Title>MeoWoof</Card.Title>
                             <p>Project 2</p>
                             <Card.Text>
-                            The MeoWoof is a mobile first designed application featuring a map and display the route walked for the day with date & time stamp, and distance/ duration walked. This feature will also display in real time so that the owner may see if/ where their dog sitter/ helper is walking their furball in real time!
+                                The MeoWoof is a mobile first designed application featuring a map and display the route walked for the day with date & time stamp, and distance/ duration walked. This feature will also display in real time so that the owner may see if/ where their dog sitter/ helper is walking their furball in real time!
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -62,7 +65,7 @@ const Portfolio = (props) => {
                                 This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This card has even longer content than the first to
                                 show that equal height action.
-      </Card.Text>
+                            </Card.Text>
                         </Card.Body>
                         <Card.Footer>
                             <small className="text-muted">Last updated 3 mins ago</small>
@@ -70,7 +73,7 @@ const Portfolio = (props) => {
                     </Card>
                 </CardGroup>
             </Row>
-   
+
         </Container>
     )
 }
