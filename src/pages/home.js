@@ -6,6 +6,7 @@ const Home = (props) => {
     return (
         <Container>
             <Row className="display-flex align-items-center justify-content-center mx-auto">
+            <Col md={8}><img src={homePNG} className="img-fluid" alt="..." /></Col>
                 <Col md={4}>
                     {/* <h1 class="main-title">Hey!</h1><small>Thanks for stopping by. </small> */}
                     <p>
@@ -24,7 +25,6 @@ const Home = (props) => {
                         <Button variant="secondary" size="lg" href="#Portfolio">Projects</Button>
                     </div>
                 </Col >
-                <Col md={8}><img src={homePNG} className="img-fluid" alt="..." /></Col>
             </Row>
         </Container>
 
