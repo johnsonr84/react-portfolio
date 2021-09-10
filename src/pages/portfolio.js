@@ -10,7 +10,7 @@ import projectThree from "../assets/images/project-3.png";
 const Portfolio = (props) => {
     return (
         <Container className="display-flex" >
-            <Row className="display-flex align-items-center justify-content-center mx-auto vh-95">
+            <Row className="display-flex align-items-center justify-content-center mx-auto vh-100">
                 <Col md={6}><img src={portfolioPNG} className="img-fluid" alt="..." /></Col>
                 <Col md={6}>
                     <h3>
@@ -30,7 +30,7 @@ const Portfolio = (props) => {
             
 
            
-            <Row className="projects display-flex mt-5 mb-5 justify-content-center">
+            <Row className="projects display-flex mt-1 mb-1 justify-content-center">
                
                     <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }} >
                         <Card.Title>Restaurant Roulette</Card.Title>
