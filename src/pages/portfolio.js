@@ -20,10 +20,10 @@ const Portfolio = (props) => {
                         My portfolio features a variety of Projects built with various programming languages and libraries.
                     </p>
                     <p>
-                        In the first section, you will find Projects 1,2 and 3 from my successfully completed Full Stack University of Utah Coding Bootcamp.
+                        The first section features collaborative apps with some fellow developers.
                     </p>
                     <p>
-                        In the second section, you will find samples of some of my assignments from my University of Utah Coding Bootcamp.
+                        The second section features samples of some projects from my University of Utah Coding Bootcamp.
                     </p>
                 </Col >
             </Row>
