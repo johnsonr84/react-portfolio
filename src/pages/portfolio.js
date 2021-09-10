@@ -1,16 +1,18 @@
 import React from 'react';
-import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card, CardGroup, Button } from 'react-bootstrap';
+import { CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
 import portfolioPNG from "../assets/images/rob/rob-6.png";
 import projectOne from "../assets/images/project-1.png";
+import projectTwo from "../assets/images/project-2.png";
 import projectThree from "../assets/images/project-3.png";
-import placeholderPNG from "../assets/images/150.png";
+
 
 const Portfolio = (props) => {
     return (
-        <Container>
-            <Row className="display-flex align-items-center justify-content-center mx-auto">
-                <Col md={8}><img src={portfolioPNG} className="img-fluid" alt="..." /></Col>
-                <Col md={4}>
+        <Container className="display-flex" >
+            <Row className="display-flex align-items-center justify-content-center mx-auto vh-95">
+                <Col md={6}><img src={portfolioPNG} className="img-fluid" alt="..." /></Col>
+                <Col md={6}>
                     <h3>
                         Let's Build Something!
                     </h3>
@@ -25,53 +27,42 @@ const Portfolio = (props) => {
                     </p>
                 </Col >
             </Row>
-            <Row>
-                <CardGroup className="projects">
-                    <Card className="projectOne m-1">
-                        <Card.Img variant="top" src={projectOne} />
-                        <a href="https://johnsonr84.github.io/restaurant-roulette/" target="blank"></a>
+            
+
+           
+            <Row className="projects display-flex mt-5 mb-5 justify-content-center">
+               
+                    <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }} >
+                        <Card.Title>Restaurant Roulette</Card.Title>
+                        <Card.Img src={projectOne} />
                         <Card.Body>
-                            <Card.Title>Restaurant Roulette</Card.Title>
-                            <p>Project 1</p>
                             <Card.Text>
-                                App asks users to enter basic criteria of what they are looking for (cuisine, location/distance, etc). Will populate a “spin the wheel” button that picks a random result and then links map/delivery links. API’s that we used: zippopotamus, zomato, google maps…
+                                Random restraunt app
                             </Card.Text>
+                            <Button variant="secondary" href="https://johnsonr84.github.io/restaurant-roulette/" target="blank">Deployment</Button>
                         </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
-                    <Card className="projectTwo m-1">
-                        <Card.Img variant="top" src={placeholderPNG} />
-                        <a href="https://github.com/johnsonr84/meowoof" target="blank"></a>
+                    <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                        <Card.Title>MeoWoof</Card.Title>
+                        <Card.Img src={projectTwo} />
                         <Card.Body>
-                            <Card.Title>MeoWoof</Card.Title>
-                            <p>Project 2</p>
                             <Card.Text>
-                                The MeoWoof is a mobile first designed application featuring a map and display the route walked for the day with date & time stamp, and distance/ duration walked. This feature will also display in real time so that the owner may see if/ where their dog sitter/ helper is walking their furball in real time!
+                                Pet care tracker app
                             </Card.Text>
+                            <Button variant="secondary" href="https://github.com/johnsonr84/meowoof" target="blank">Deployment</Button>
                         </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
-                    <Card className="projectThree m-1">
-                        <Card.Img variant="top" src={projectThree} />
-                        <a href="https://voyagr.netlify.app/" target="blank"></a>
+                    <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                        <Card.Title>Voyagr</Card.Title>
+                        <Card.Img src={projectThree} />
                         <Card.Body>
-                            <Card.Title>Voyagr</Card.Title>
-                            <p>Project 3</p>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
+                                Travel journal app
                             </Card.Text>
+                            <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
                         </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
-                </CardGroup>
+               
             </Row>
 
         </Container>
