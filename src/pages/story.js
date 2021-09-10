@@ -5,14 +5,14 @@ import storyPNG from "../assets/images/rob/rob-2.png";
 const Story = (props) => {
     return (
     <Container>
-        <Row className="display-flex align-items-center justify-content-center mx-auto">
+        <Row className="display-flex align-items-center justify-content-center mx-auto vh-100">
         <Col md={8}><img src={storyPNG} className="img-fluid" alt="..." /></Col>
         <Col md={4}>
                 <h3>
-                    Heyo! I'm Rob  
+                    Thanks for stopping by! 
                 </h3>
                 <p>
-                    Thanks for being curious about my life. I'm a Full Stack Developer. 
+                    Thanks for being curious about my life.
                 </p>
                 <p>
                     I recently recieved my certificate in Full Stack Development from the University of Utah. 
