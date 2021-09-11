@@ -1,13 +1,13 @@
 import React from 'react';
 import {Container, Row, Col } from 'react-bootstrap';
-import storyPNG from "../assets/images/rob/rob-2.png";
+import storyPNG from "../assets/images/rob/rob-1.png";
 
 const Story = (props) => {
     return (
     <Container>
         <Row className="display-flex align-items-center justify-content-center mx-auto vh-100">
-        <Col md={8}><img src={storyPNG} className="img-fluid" alt="..." /></Col>
-        <Col md={4}>
+        <Col md={6}><img src={storyPNG} className="img-fluid " alt="..." /></Col>
+        <Col md={6}>
                 <h3>
                     Thanks for stopping by! 
                 </h3>
