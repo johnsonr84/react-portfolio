@@ -2,9 +2,12 @@ import React from 'react';
 import { Container, Row, Col, Card, CardGroup, Button } from 'react-bootstrap';
 import { CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
 import portfolioPNG from "../assets/images/rob/rob-6.png";
-import projectOne from "../assets/images/project-1.png";
-import projectTwo from "../assets/images/project-2.png";
-import projectThree from "../assets/images/project-3.png";
+import restaurantRoulette from "../assets/images/projects/restaurant-roulette.png";
+import meoWoof from "../assets/images/projects/meowoof.png";
+import voyagr from "../assets/images/projects/voyagr.png";
+import reactBook from "../assets/images/projects/react-book-search.png";
+import employeeDirectory from "../assets/images/projects/employee-directory.png";
+import workoutTracker from "../assets/images/projects/workout-tracker.png";
 
 
 const Portfolio = (props) => {
@@ -27,42 +30,78 @@ const Portfolio = (props) => {
                     </p>
                 </Col >
             </Row>
-            
 
-           
+
+
             <Row className="projects display-flex mt-1 mb-1 justify-content-center">
-               
-                    <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }} >
-                        <Card.Title>Restaurant Roulette</Card.Title>
-                        <Card.Img src={projectOne} />
-                        <Card.Body>
-                            <Card.Text>
-                                Random restraunt app
-                            </Card.Text>
-                            <Button variant="secondary" href="https://johnsonr84.github.io/restaurant-roulette/" target="blank">Deployment</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                        <Card.Title>MeoWoof</Card.Title>
-                        <Card.Img src={projectTwo} />
-                        <Card.Body>
-                            <Card.Text>
-                                Pet care tracker app
-                            </Card.Text>
-                            <Button variant="secondary" href="https://github.com/johnsonr84/meowoof" target="blank">Deployment</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                        <Card.Title>Voyagr</Card.Title>
-                        <Card.Img src={projectThree} />
-                        <Card.Body>
-                            <Card.Text>
-                                Travel journal app
-                            </Card.Text>
-                            <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
-                        </Card.Body>
-                    </Card>
-               
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Voyagr</Card.Title>
+                    <Card.Img src={voyagr} />
+                    <Card.Body>
+                        <Card.Text>
+                            Travel Journal App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>React Book Search</Card.Title>
+                    <Card.Img src={reactBook} />
+                    <Card.Body>
+                        <Card.Text>
+                            Google Book Search
+                        </Card.Text>
+                        <Button variant="secondary" href="https://mern-react-book.herokuapp.com/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+              
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>React Employee Directory</Card.Title>
+                    <Card.Img src={employeeDirectory} />
+                    <Card.Body>
+                        <Card.Text>
+                            Find/ FIlter Employee List
+                        </Card.Text>
+                        <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Workout Tracker</Card.Title>
+                    <Card.Img src={workoutTracker} />
+                    <Card.Body>
+                        <Card.Text>
+                            Create/Track your workout
+                        </Card.Text>
+                        <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }} >
+                    <Card.Title>Restaurant Roulette</Card.Title>
+                    <Card.Img src={restaurantRoulette} />
+                    <Card.Body>
+                        <Card.Text>
+                            Random Restraunt Finder App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/restaurant-roulette/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>MeoWoof</Card.Title>
+                    <Card.Img src={meoWoof} />
+                    <Card.Body>
+                        <Card.Text>
+                            Pet Care/Tracker App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://github.com/johnsonr84/meowoof" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+
             </Row>
 
         </Container>
