@@ -8,7 +8,7 @@ import voyagr from "../assets/images/projects/voyagr.png";
 import reactBook from "../assets/images/projects/react-book-search.png";
 import employeeDirectory from "../assets/images/projects/employee-directory.png";
 import workoutTracker from "../assets/images/projects/workout-tracker.png";
-
+import budgetTracker from "../assets/images/projects/budget-tracker.png";
 
 const Portfolio = (props) => {
     return (
@@ -64,7 +64,7 @@ const Portfolio = (props) => {
                         <Card.Text>
                             Find/ FIlter Employee List
                         </Card.Text>
-                        <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/react-employee-directory/" target="blank">Deployment</Button>
                     </Card.Body>
                 </Card>
 
@@ -74,6 +74,39 @@ const Portfolio = (props) => {
                     <Card.Body>
                         <Card.Text>
                             Create/Track your workout
+                        </Card.Text>
+                        <Button variant="secondary" href="https://dry-castle-85403.herokuapp.com/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Budget Tracker</Card.Title>
+                    <Card.Img src={budgetTracker} />
+                    <Card.Body>
+                        <Card.Text>
+                            Online/ Offline App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://github.com/johnsonr84/pwa-budget-tracker" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>React Book Search</Card.Title>
+                    <Card.Img src={reactBook} />
+                    <Card.Body>
+                        <Card.Text>
+                            Google Book Search
+                        </Card.Text>
+                        <Button variant="secondary" href="https://mern-react-book.herokuapp.com/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+              
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>React Employee Directory</Card.Title>
+                    <Card.Img src={employeeDirectory} />
+                    <Card.Body>
+                        <Card.Text>
+                            Find/ FIlter Employee List
                         </Card.Text>
                         <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
                     </Card.Body>
