@@ -9,6 +9,8 @@ import reactBook from "../assets/images/projects/react-book-search.png";
 import employeeDirectory from "../assets/images/projects/employee-directory.png";
 import workoutTracker from "../assets/images/projects/workout-tracker.png";
 import budgetTracker from "../assets/images/projects/budget-tracker.png";
+import fullStackBurgers from "../assets/images/projects/full-stack-burgers.png";
+import employeeManagement from "../assets/images/projects/employee-management.png";
 
 const Portfolio = (props) => {
     return (
@@ -91,24 +93,24 @@ const Portfolio = (props) => {
                 </Card>
 
                 <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>React Book Search</Card.Title>
-                    <Card.Img src={reactBook} />
+                    <Card.Title>Full Stack Burgers</Card.Title>
+                    <Card.Img src={fullStackBurgers} />
                     <Card.Body>
                         <Card.Text>
-                            Google Book Search
+                            Burger Order App
                         </Card.Text>
-                        <Button variant="secondary" href="https://mern-react-book.herokuapp.com/" target="blank">Deployment</Button>
+                        <Button variant="secondary" href="https://full-stack-burgers.herokuapp.com/" target="blank">Deployment</Button>
                     </Card.Body>
                 </Card>
               
                 <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>React Employee Directory</Card.Title>
-                    <Card.Img src={employeeDirectory} />
+                    <Card.Title>Employee Management</Card.Title>
+                    <Card.Img src={employeeManagement} />
                     <Card.Body>
                         <Card.Text>
-                            Find/ FIlter Employee List
+                            Employee Database Solution
                         </Card.Text>
-                        <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
+                        <Button variant="secondary" href="https://github.com/johnsonr84/employee-management" target="blank">Repository</Button>
                     </Card.Body>
                 </Card>
 
