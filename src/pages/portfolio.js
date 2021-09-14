@@ -13,6 +13,7 @@ import fullStackBurgers from "../assets/images/projects/full-stack-burgers.png";
 import employeeManagement from "../assets/images/projects/employee-management.png";
 import dayPlanner from "../assets/images/projects/day-planner.png";
 import weatherDashboard from "../assets/images/projects/weather-dashboard.png";
+import noteTaker from "../assets/images/projects/note-taker.png";
 
 const Portfolio = (props) => {
     return (
@@ -39,7 +40,7 @@ const Portfolio = (props) => {
 
             <Row className="projects display-flex mt-1 mb-1 justify-content-center">
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Voyagr</Card.Title>
                     <Card.Img src={voyagr} />
                     <Card.Body>
@@ -50,7 +51,7 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>React Book Search</Card.Title>
                     <Card.Img src={reactBook} />
                     <Card.Body>
@@ -61,18 +62,18 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
               
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>React Employee Directory</Card.Title>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>React Directory</Card.Title>
                     <Card.Img src={employeeDirectory} />
                     <Card.Body>
                         <Card.Text>
-                            Find/ FIlter Employee List
+                            Find Employee List
                         </Card.Text>
                         <Button variant="secondary" href="https://johnsonr84.github.io/react-employee-directory/" target="blank">Deployment</Button>
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Workout Tracker</Card.Title>
                     <Card.Img src={workoutTracker} />
                     <Card.Body>
@@ -83,7 +84,7 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Budget Tracker</Card.Title>
                     <Card.Img src={budgetTracker} />
                     <Card.Body>
@@ -94,7 +95,7 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Full Stack Burgers</Card.Title>
                     <Card.Img src={fullStackBurgers} />
                     <Card.Body>
@@ -105,7 +106,7 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
               
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Employee Management</Card.Title>
                     <Card.Img src={employeeManagement} />
                     <Card.Body>
@@ -116,7 +117,7 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Day Planner</Card.Title>
                     <Card.Img src={dayPlanner} />
                     <Card.Body>
@@ -127,8 +128,8 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Day Planner</Card.Title>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Weather Dashboard</Card.Title>
                     <Card.Img src={weatherDashboard} />
                     <Card.Body>
                         <Card.Text>
@@ -138,18 +139,29 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }} >
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Note Taker</Card.Title>
+                    <Card.Img src={noteTaker} />
+                    <Card.Body>
+                        <Card.Text>
+                            Note Taking App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://fathomless-journey-02992.herokuapp.com/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }} >
                     <Card.Title>Restaurant Roulette</Card.Title>
                     <Card.Img src={restaurantRoulette} />
                     <Card.Body>
                         <Card.Text>
-                            Random Restraunt Finder App
+                            Random Restaurant App
                         </Card.Text>
                         <Button variant="secondary" href="https://johnsonr84.github.io/restaurant-roulette/" target="blank">GH Pages</Button>
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>MeoWoof</Card.Title>
                     <Card.Img src={meoWoof} />
                     <Card.Body>
