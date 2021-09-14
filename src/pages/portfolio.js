@@ -11,6 +11,7 @@ import workoutTracker from "../assets/images/projects/workout-tracker.png";
 import budgetTracker from "../assets/images/projects/budget-tracker.png";
 import fullStackBurgers from "../assets/images/projects/full-stack-burgers.png";
 import employeeManagement from "../assets/images/projects/employee-management.png";
+import dayPlanner from "../assets/images/projects/day-planner.png";
 
 const Portfolio = (props) => {
     return (
@@ -111,6 +112,17 @@ const Portfolio = (props) => {
                             Employee Database Solution
                         </Card.Text>
                         <Button variant="secondary" href="https://github.com/johnsonr84/employee-management" target="blank">Repository</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Day Planner</Card.Title>
+                    <Card.Img src={dayPlanner} />
+                    <Card.Body>
+                        <Card.Text>
+                            Simple Calendar App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/day-planner/" target="blank">Repository</Button>
                     </Card.Body>
                 </Card>
 
