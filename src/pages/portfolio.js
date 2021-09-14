@@ -12,6 +12,7 @@ import budgetTracker from "../assets/images/projects/budget-tracker.png";
 import fullStackBurgers from "../assets/images/projects/full-stack-burgers.png";
 import employeeManagement from "../assets/images/projects/employee-management.png";
 import dayPlanner from "../assets/images/projects/day-planner.png";
+import weatherDashboard from "../assets/images/projects/weather-dashboard.png";
 
 const Portfolio = (props) => {
     return (
@@ -122,7 +123,18 @@ const Portfolio = (props) => {
                         <Card.Text>
                             Simple Calendar App
                         </Card.Text>
-                        <Button variant="secondary" href="https://johnsonr84.github.io/day-planner/" target="blank">Repository</Button>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/day-planner/" target="blank">GH Pages</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '15rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Day Planner</Card.Title>
+                    <Card.Img src={weatherDashboard} />
+                    <Card.Body>
+                        <Card.Text>
+                            5-Day Weather Forcast
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/weather-dashboard/" target="blank">GH Pages</Button>
                     </Card.Body>
                 </Card>
 
@@ -133,7 +145,7 @@ const Portfolio = (props) => {
                         <Card.Text>
                             Random Restraunt Finder App
                         </Card.Text>
-                        <Button variant="secondary" href="https://johnsonr84.github.io/restaurant-roulette/" target="blank">Deployment</Button>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/restaurant-roulette/" target="blank">GH Pages</Button>
                     </Card.Body>
                 </Card>
 
