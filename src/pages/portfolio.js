@@ -14,6 +14,7 @@ import employeeManagement from "../assets/images/projects/employee-management.pn
 import dayPlanner from "../assets/images/projects/day-planner.png";
 import weatherDashboard from "../assets/images/projects/weather-dashboard.png";
 import noteTaker from "../assets/images/projects/note-taker.png";
+import jsQuiz from "../assets/images/projects/js-quiz.png";
 
 const Portfolio = (props) => {
     return (
@@ -147,6 +148,17 @@ const Portfolio = (props) => {
                             Note Taking App
                         </Card.Text>
                         <Button variant="secondary" href="https://fathomless-journey-02992.herokuapp.com/" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>JS Code Quiz</Card.Title>
+                    <Card.Img src={jsQuiz} />
+                    <Card.Body>
+                        <Card.Text>
+                            Javascript Quiz App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/code-quiz-challenge/" target="blank">GH Pages</Button>
                     </Card.Body>
                 </Card>
 
