@@ -12,6 +12,7 @@ import budgetTracker from "../assets/images/projects/budget-tracker.png";
 import fullStackBurgers from "../assets/images/projects/full-stack-burgers.png";
 import employeeManagement from "../assets/images/projects/employee-management.png";
 import dayPlanner from "../assets/images/projects/day-planner.png";
+import teamProfileGenerator from "../assets/images/projects/team-profile-generator.png";
 import weatherDashboard from "../assets/images/projects/weather-dashboard.png";
 import noteTaker from "../assets/images/projects/note-taker.png";
 import jsQuiz from "../assets/images/projects/js-quiz.png";
@@ -128,6 +129,17 @@ const Portfolio = (props) => {
                         </Card.Text>
                         <Button variant="secondary" href="https://johnsonr84.github.io/day-planner/" target="blank">GH Pages</Button>
                     </Card.Body>
+                </Card> 
+
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Team Profile Generator</Card.Title>
+                    <Card.Img src={teamProfileGenerator} />
+                    <Card.Body>
+                        <Card.Text>
+                            Node.js CLI App
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/day-planner/" target="blank">GH Pages</Button>
+                    </Card.Body>
                 </Card>
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
@@ -195,6 +207,8 @@ const Portfolio = (props) => {
                         <Button variant="secondary" href="https://github.com/johnsonr84/meowoof" target="blank">Deployment</Button>
                     </Card.Body>
                 </Card>
+
+                
 
 
             </Row>
