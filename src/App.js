@@ -6,6 +6,7 @@ import Portfolio from "./pages/portfolio"
 import Story from "./pages/story"
 // import Contact from "./pages/contact"
 import Navbar from './components/Navbar'
+import Nav from './components/Footer'
 import {  Route, Switch } from "react-router-dom";
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/story" component={Story} />
         {/* <Route exact path="/contact" component={Contact} /> */}
       </Switch>
+      <Nav />
     </Route>
   );
 }
