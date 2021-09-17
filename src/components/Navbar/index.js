@@ -27,12 +27,12 @@ const CustomNavbar = (props) => {
                             <Nav.Item>
                                 <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
                             </Nav.Item>
-                            {/* <Nav.Item>
-                                <Nav.Link href="#Story">Story</Nav.Link>
-                            </Nav.Item> */}
                             <Nav.Item>
-                                <Nav.Link href="#Contact">Contact</Nav.Link>
+                                <Nav.Link href="#Story">Story</Nav.Link>
                             </Nav.Item>
+                            {/* <Nav.Item>
+                                <Nav.Link href="#Contact">Contact</Nav.Link>
+                            </Nav.Item> */}
                             <Nav.Item>
                                 <Nav.Link href="https://www.visualcv.com/robert-johnson/" target="none">Résumé</Nav.Link>
                             </Nav.Item>
