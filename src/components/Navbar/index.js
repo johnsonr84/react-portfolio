@@ -13,7 +13,7 @@ const CustomNavbar = (props) => {
                         <Nav>
                             <ul>
                                 <li>
-                                    <Navbar.Brand href="#">DevDork</Navbar.Brand>
+                                    <Navbar.Brand href="#">Robert C Johnson</Navbar.Brand>
                                 </li>
                                 <li>
                                     {/* <p>by Rob Johnson</p> */}
