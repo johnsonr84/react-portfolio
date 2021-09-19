@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import homePNG from "../assets/images/rob/rob-5.png";
 
 const Home = (props) => {
@@ -27,6 +28,11 @@ const Home = (props) => {
                     <div className="justify-content-center align-items-center">
                         <Button variant="secondary" size="md" href="#Portfolio">Projects</Button>
                     </div>
+                      {/* <a href="https://www.linkedin.com/in/robertjohnson1984/" target="blank" style={{ textDecoration: 'none' }}>LinkedIn</a>
+
+                        <a class="fab fa-git-square" href="https://github.com/johnsonr84" target="blank" style={{ textDecoration: 'none' }}>Github</a>
+
+                        <FontAwesomeIcon icon={['fab', 'github']} /> */}
                 </Col >
             </Row>
         </Container>
