@@ -1,38 +1,34 @@
 import React from 'react'
-import { Navbar, Container, Nav, Row, Col, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Row, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { fab, github } from '@fortawesome/free-brands-svg-icons'
-// import "./style.css"
+import reactPNG from "./../../../src/assets/images/logos/react.png";
+import bootstrapPNG from "./../../../src/assets/images/logos/bootstrap.png";
+import htmlPNG from "./../../../src/assets/images/logos/html.png";
+import cssPNG from "./../../../src/assets/images/logos/css.png";
+import jsPNG from "./../../../src/assets/images/logos/js.png";
+import nodePNG from "./../../../src/assets/images/logos/node.png";
+import gatsbyPNG from "./../../../src/assets/images/logos/gatsby.png";
+
 
 const Footer = (props) => {
     return (
 
-        <Container className="">
-            <Nav >
-                <Row className="justify-content-center p-2">
+        <Container >
+
+            <Nav className="justify-content-center m-5">
+                <Row className="text-center">
                     <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/robertjohnson1984/" target="blank" style={{ textDecoration: 'none', listStyleType: 'none'}}>LinkedIn</a>
-                        </li>
-                        <li>
-                        <a class="fab fa-git-square" href="https://github.com/johnsonr84" target="blank"  style={{ textDecoration: 'none', listStyleType: 'none'}}>Github</a>
-                        </li>
-                        <li>
-                        <FontAwesomeIcon icon={['fab', 'github']} />
-                        </li>
+                        <p className="text-center">Designed by yours truly with</p>
+                        <img src={reactPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="react logo" />
+                        <img src={bootstrapPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="bootstrap logo" />
+                        <img src={htmlPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="html shield logo" />
+                        <img src={cssPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="css shield logo" />
+                        <img src={jsPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="javascript shield logo" />
+                        <img src={gatsbyPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="gatsby shield logo" />
+                        <img src={nodePNG} width="40" height="45" className="d-inline-block align-top p-1" alt="node shield logo" />
                     </ul>
                 </Row>
-{/* 
-                <Row className="justify-content-center p-2">
-                    <ul>
-                        <li>
-                            <Navbar.Brand href="#">LinkedIN</Navbar.Brand>
-                        </li>
-                        <li>
 
-                        </li>
-                    </ul>
-                </Row> */}
             </Nav >
 
         </Container>
