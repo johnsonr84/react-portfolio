@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container, Nav, Row, Image } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Container, Nav, Row } from 'react-bootstrap';
 import reactPNG from "./../../../src/assets/images/logos/react.png";
 import bootstrapPNG from "./../../../src/assets/images/logos/bootstrap.png";
 import htmlPNG from "./../../../src/assets/images/logos/html.png";
@@ -14,7 +13,6 @@ const Footer = (props) => {
     return (
 
         <Container >
-
             <Nav className="justify-content-center m-5">
                 <Row className="text-center">
                     <ul>
@@ -28,9 +26,7 @@ const Footer = (props) => {
                         <img src={nodePNG} width="40" height="45" className="d-inline-block align-top p-1" alt="node shield logo" />
                     </ul>
                 </Row>
-
             </Nav >
-
         </Container>
 
     )
