@@ -17,6 +17,8 @@ import weatherDashboard from "../assets/images/projects/weather-dashboard.png";
 import noteTaker from "../assets/images/projects/note-taker.png";
 import jsQuiz from "../assets/images/projects/js-quiz.png";
 import passGenerator from "../assets/images/projects/password-generator.png";
+import calculatorPNG from "../assets/images/projects/calculator.png";
+import clockPNG from "../assets/images/projects/countdown-clock.png";
 
 const Portfolio = (props) => {
     return (
@@ -205,6 +207,28 @@ const Portfolio = (props) => {
                             Pet Care/Tracker App
                         </Card.Text>
                         <Button variant="secondary" href="https://github.com/johnsonr84/meowoof" target="blank">Deployment</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Javascript Calculator</Card.Title>
+                    <Card.Img src={calculatorPNG} />
+                    <Card.Body>
+                        <Card.Text>
+                            Javascript Calculator
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/javascript-calculator/" target="blank">GH Pages</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Javascript Clock</Card.Title>
+                    <Card.Img src={clockPNG} />
+                    <Card.Body>
+                        <Card.Text>
+                            JS Countdown Clock
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/countdown-clock/" target="blank">GH Pages</Button>
                     </Card.Body>
                 </Card>
 
