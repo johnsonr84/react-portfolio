@@ -18,7 +18,10 @@ import noteTaker from "../assets/images/projects/note-taker.png";
 import jsQuiz from "../assets/images/projects/js-quiz.png";
 import passGenerator from "../assets/images/projects/password-generator.png";
 import calculatorPNG from "../assets/images/projects/calculator.png";
+import spaceInvadersPNG from "../assets/images/projects/space-invaders.png";
+import drumsetPNG from "../assets/images/projects/drumset.png";
 import clockPNG from "../assets/images/projects/countdown-clock.png";
+
 
 const Portfolio = (props) => {
     return (
@@ -222,6 +225,28 @@ const Portfolio = (props) => {
                 </Card>
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Space Invaders</Card.Title>
+                    <Card.Img src={spaceInvadersPNG} />
+                    <Card.Body>
+                        <Card.Text>
+                            Space Invaders Game
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/space-invaders/" target="blank">GH Pages</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
+                    <Card.Title>Javascript Drumset</Card.Title>
+                    <Card.Img src={drumsetPNG} />
+                    <Card.Body>
+                        <Card.Text>
+                            JS Keyboard Drumset
+                        </Card.Text>
+                        <Button variant="secondary" href="https://johnsonr84.github.io/javascript-drum-kit/" target="blank">GH Pages</Button>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Javascript Clock</Card.Title>
                     <Card.Img src={clockPNG} />
                     <Card.Body>
@@ -232,7 +257,7 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-                
+            
 
 
             </Row>
