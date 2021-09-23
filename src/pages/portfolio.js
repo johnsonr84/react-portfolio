@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, CardGroup, Button } from 'react-bootstrap';
-import { CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import portfolioPNG from "../assets/images/rob/rob-6.png";
 import restaurantRoulette from "../assets/images/projects/restaurant-roulette.png";
 import meoWoof from "../assets/images/projects/meowoof.png";
