@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import homePNG from "../assets/images/rob/rob-5.png";
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
@@ -15,7 +15,7 @@ const Home = (props) => {
                         Heyo! I'm Rob.
                     </h1>
                     <h4>
-                        A Full Stack Developer.
+                        A Full Stack Developer
                     </h4>
                     <p>
                         I enjoy building projects to provide solutions and help others.
@@ -27,19 +27,33 @@ const Home = (props) => {
                     <p>
                         I consider myself fortunate to do what I love daily.
                     </p>
-                    <div className="justify-content-center align-items-center">
-                        <Button variant="secondary" size="md" href="#Portfolio">Projects</Button>
+                    <div>
+                        {/* <MDBBtn className='m-1 shadow' style={{ backgroundColor: '#5B6369' , border: 'none' }} floating size='mx' href="#Portfolio">
+                            <MDBIcon fas icon='code-branch' /> Projects
+                        </MDBBtn> */}
+                        <MDBBtn className='m-2 p-2 shadow' style={{ backgroundColor: '#333333', width: '100px', border: 'none' }} floating size='mx' href='https://github.com/johnsonr84' target='blank'>
+                            <MDBIcon fab icon='github' /> Github
+                        </MDBBtn>
+                        <MDBBtn rounded className='mx-2 p-2 shadow' style={{ backgroundColor: '#0670AE', width: '100px', border: 'none' }} floating size='mx' href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
+                            <MDBIcon fab icon='linkedin-in' /> LinkedIn
+                        </MDBBtn>
                     </div>
-                    {/* <a href="https://www.linkedin.com/in/robertjohnson1984/" target="blank" style={{ textDecoration: 'none' }}>LinkedIn</a>
 
-                        <a class="fab fa-git-square" href="https://github.com/johnsonr84" target="blank" style={{ textDecoration: 'none' }}>Github</a>
-
-                        <FontAwesomeIcon icon={['fab', 'github']} /> */}
                 </Col >
             </Row>
-            <Row>
-                <Col md={4}>
-                    <MDBBtn className='m-1' style={{ backgroundColor: '#0082ca' }} href='#'>
+            <Row className="display-flex align-items-center text-center">
+                <Col md={2} className="display-flex align-items-center">
+                    <MDBBtn rounded className='mx-1 shadow' style={{ backgroundColor: '#0082ca' }} floating size='lg' href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
+                        <MDBIcon fab icon='linkedin-in' />
+                    </MDBBtn>
+                </Col>
+                <Col md={2} className="display-flex align-items-center">
+                    <MDBBtn className='m-1 shadow' style={{ backgroundColor: '#333333' }} floating size='lg' href='https://github.com/johnsonr84' target='blank'>
+                        <MDBIcon fab icon='github' />
+                    </MDBBtn>
+                </Col>
+                <Col md={2} className="display-flex align-items-center" >
+                    <MDBBtn className='mx-1 shadow' style={{ backgroundColor: '#0082ca' }} floating size='lg' href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
                         <MDBIcon fab icon='linkedin-in' />
                     </MDBBtn>
                 </Col>
