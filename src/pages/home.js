@@ -12,7 +12,7 @@ const Home = (props) => {
                 <Col md={8}><img src={homePNG} className="img-fluid" alt="..." /></Col>
                 <Col md={4}>
                     <h1>
-                        Heyo! I'm Rob.
+                        Hey! I'm Rob.
                     </h1>
                     <h4>
                         A Full Stack Developer
@@ -28,14 +28,18 @@ const Home = (props) => {
                         I consider myself fortunate to do what I love daily.
                     </p>
                     <div>
-                        {/* <MDBBtn className='m-1 shadow' style={{ backgroundColor: '#5B6369' , border: 'none' }} floating size='mx' href="#Portfolio">
-                            <MDBIcon fas icon='code-branch' /> Projects
-                        </MDBBtn> */}
-                        <MDBBtn className='m-2 p-2 shadow' style={{ backgroundColor: '#333333', width: '100px', border: 'none' }} floating size='mx' href='https://github.com/johnsonr84' target='blank'>
-                            <MDBIcon fab icon='github' /> Github
+                        <MDBBtn className='mx-3 shadow' style={{ backgroundColor: '#5B6369', width: '100px', border: 'none' }}  href="#Portfolio">
+                            {/* <MDBIcon fas icon='code-branch' />  */}
+                            Projects
                         </MDBBtn>
-                        <MDBBtn rounded className='mx-2 p-2 shadow' style={{ backgroundColor: '#0670AE', width: '100px', border: 'none' }} floating size='mx' href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
-                            <MDBIcon fab icon='linkedin-in' /> LinkedIn
+                        <MDBBtn className='mx-1  shadow rounded-circle' style={{ backgroundColor: '#333333', border: 'none' }}  href='https://github.com/johnsonr84' target='blank'>
+                            <MDBIcon fab icon='github' /> 
+                        </MDBBtn>
+                        <MDBBtn className='mx-1 shadow rounded-circle' style={{ backgroundColor: '#0670AE', border: 'none' }}  href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
+                            <MDBIcon fab icon='linkedin-in' /> 
+                        </MDBBtn>
+                        <MDBBtn  className='mx-1 shadow rounded-circle' style={{ backgroundColor: '#dd4b39', border: 'none' }}  href='#'>
+                            <MDBIcon fab icon='google' /> 
                         </MDBBtn>
                     </div>
 
