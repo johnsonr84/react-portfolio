@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import homePNG from "../assets/images/rob/rob-5.png";
+import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
+
 
 const Home = (props) => {
     return (
@@ -28,12 +30,24 @@ const Home = (props) => {
                     <div className="justify-content-center align-items-center">
                         <Button variant="secondary" size="md" href="#Portfolio">Projects</Button>
                     </div>
-                      {/* <a href="https://www.linkedin.com/in/robertjohnson1984/" target="blank" style={{ textDecoration: 'none' }}>LinkedIn</a>
+                    {/* <a href="https://www.linkedin.com/in/robertjohnson1984/" target="blank" style={{ textDecoration: 'none' }}>LinkedIn</a>
 
                         <a class="fab fa-git-square" href="https://github.com/johnsonr84" target="blank" style={{ textDecoration: 'none' }}>Github</a>
 
                         <FontAwesomeIcon icon={['fab', 'github']} /> */}
                 </Col >
+            </Row>
+            <Row>
+                <Col md={4}>
+                    <MDBBtn className='m-1' style={{ backgroundColor: '#0082ca' }} href='#'>
+                        <MDBIcon fab icon='linkedin-in' />
+                    </MDBBtn>
+                </Col>
+
+
+
+                {/* <Col md={4}><a className="fab fa-github" href="https://github.com/johnsonr84?tab=repositories" target="blank" /></Col>
+                <a target="blank">Repositories</a> */}
             </Row>
         </Container>
 
