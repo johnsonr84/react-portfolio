@@ -49,21 +49,39 @@ const Portfolio = (props) => {
 
             <Row className="projects display-flex mt-1 mb-1 justify-content-center">
 
-            <MDBCard style={{ maxWidth: '22rem' }}>
-      <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-        <MDBCardImage src='https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg' fluid alt='...' />
-        <a>
-          <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-        </a>
-      </MDBRipple>
-      <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-        <MDBBtn href='#'>Button</MDBBtn>
-      </MDBCardBody>
-    </MDBCard>
+
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem'  }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={voyagr} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>Voyagr</MDBCardTitle>
+                        <MDBCardText>
+                            Travel Journal App
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://voyagr.netlify.app/' target="blank">Deployment</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
+
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem' }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={voyagr} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>Voyagr</MDBCardTitle>
+                        <MDBCardText>
+                            Travel Journal App
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://voyagr.netlify.app/' target="blank">Deployment</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Voyagr</Card.Title>
@@ -86,7 +104,7 @@ const Portfolio = (props) => {
                         <Button variant="secondary" href="https://mern-react-book.herokuapp.com/" target="blank">Deployment</Button>
                     </Card.Body>
                 </Card>
-              
+
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>React Directory</Card.Title>
                     <Card.Img src={employeeDirectory} />
@@ -130,7 +148,7 @@ const Portfolio = (props) => {
                         <Button variant="secondary" href="https://full-stack-burgers.herokuapp.com/" target="blank">Deployment</Button>
                     </Card.Body>
                 </Card>
-              
+
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Employee Management</Card.Title>
                     <Card.Img src={employeeManagement} />
@@ -151,7 +169,7 @@ const Portfolio = (props) => {
                         </Card.Text>
                         <Button variant="secondary" href="https://johnsonr84.github.io/day-planner/" target="blank">GH Pages</Button>
                     </Card.Body>
-                </Card> 
+                </Card>
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Team Profile Generator</Card.Title>
@@ -274,7 +292,7 @@ const Portfolio = (props) => {
                     </Card.Body>
                 </Card>
 
-            
+
 
 
             </Row>
