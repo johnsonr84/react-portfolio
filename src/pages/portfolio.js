@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+
+import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
 import portfolioPNG from "../assets/images/rob/rob-6.png";
 import restaurantRoulette from "../assets/images/projects/restaurant-roulette.png";
 import meoWoof from "../assets/images/projects/meowoof.png";
@@ -46,6 +48,22 @@ const Portfolio = (props) => {
 
 
             <Row className="projects display-flex mt-1 mb-1 justify-content-center">
+
+            <MDBCard style={{ maxWidth: '22rem' }}>
+      <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+        <MDBCardImage src='https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg' fluid alt='...' />
+        <a>
+          <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+        </a>
+      </MDBRipple>
+      <MDBCardBody>
+        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardText>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </MDBCardText>
+        <MDBBtn href='#'>Button</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Voyagr</Card.Title>

@@ -28,17 +28,17 @@ const Home = (props) => {
                         I consider myself fortunate to do what I love daily.
                     </p>
                     <div>
-                        <MDBBtn className='mx-3 shadow' style={{ backgroundColor: '#5B6369', width: '100px', border: 'none' }}  href="#Portfolio">
+                        <MDBBtn className='mx-3 hover-shadow-strong' style={{ backgroundColor: '#5B6369', width: '100px', border: 'none' }}  href="#Portfolio">
                             {/* <MDBIcon fas icon='code-branch' />  */}
                             Projects
                         </MDBBtn>
-                        <MDBBtn className='mx-1  shadow rounded-circle' style={{ backgroundColor: '#333333', border: 'none' }}  href='https://github.com/johnsonr84' target='blank'>
+                        <MDBBtn className='mx-1 hover-shadow-strong rounded-circle' style={{ backgroundColor: '#333333', border: 'none' }}  href='https://github.com/johnsonr84' target='blank'>
                             <MDBIcon fab icon='github' /> 
                         </MDBBtn>
-                        <MDBBtn className='mx-1 shadow rounded-circle' style={{ backgroundColor: '#0670AE', border: 'none' }}  href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
+                        <MDBBtn className='mx-1 hover-shadow-strong rounded-circle' style={{ backgroundColor: '#0670AE', border: 'none' }}  href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
                             <MDBIcon fab icon='linkedin-in' /> 
                         </MDBBtn>
-                        <MDBBtn  className='mx-1 shadow rounded-circle' style={{ backgroundColor: '#dd4b39', border: 'none' }}  href='#'>
+                        <MDBBtn  className='mx-1 hover-shadow-strong hover-zoom rounded-circle' style={{ backgroundColor: '#dd4b39', border: 'none' }}  href='#'>
                             <MDBIcon fab icon='google' /> 
                         </MDBBtn>
                     </div>
