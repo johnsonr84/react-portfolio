@@ -34,13 +34,13 @@ const Portfolio = (props) => {
                         Let's Build Something!
                     </h3>
                     <p>
-                        My portfolio features a variety of projects from single page apps to Full Stack Apps with back-end databases.
+                        This portfolio website was built with React.js and features a variety of projects from single page apps to Full Stack Apps with back-end databases.
                     </p>
                     <p>
-                        The project are built with HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, Git.
+                        The projects are built with combinations of the following: 
                     </p>
                     <p>
-                        Thank you for stopping by!
+                        HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, Git.
                     </p>
                 </Col >
             </Row>
