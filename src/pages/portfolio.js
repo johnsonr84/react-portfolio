@@ -50,7 +50,7 @@ const Portfolio = (props) => {
             <Row className="projects display-flex mt-1 mb-1 justify-content-center">
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center" }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center" }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={voyagr} fluid alt='...' />
                         <a>
@@ -67,7 +67,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={reactBook} fluid alt='...' />
                         <a>
@@ -84,7 +84,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={employeeDirectory} fluid alt='...' />
                         <a>
@@ -101,7 +101,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={workoutTracker} fluid alt='...' />
                         <a>
@@ -118,7 +118,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={budgetTracker} fluid alt='...' />
                         <a>
@@ -135,7 +135,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={fullStackBurgers} fluid alt='...' />
                         <a>
@@ -152,7 +152,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={employeeManagement} fluid alt='...' />
                         <a>
@@ -169,7 +169,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={dayPlanner} fluid alt='...' />
                         <a>
@@ -186,7 +186,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={teamProfileGenerator} fluid alt='...' />
                         <a>
@@ -203,7 +203,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={weatherDashboard} fluid alt='...' />
                         <a>
@@ -220,7 +220,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={noteTaker} fluid alt='...' />
                         <a>
@@ -237,7 +237,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={jsQuiz} fluid alt='...' />
                         <a>
@@ -254,7 +254,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={passGenerator} fluid alt='...' />
                         <a>
@@ -271,7 +271,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={restaurantRoulette} fluid alt='...' />
                         <a>
@@ -288,7 +288,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={meoWoof} fluid alt='...' />
                         <a>
@@ -305,7 +305,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={calculatorPNG} fluid alt='...' />
                         <a>
@@ -322,7 +322,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={spaceInvadersPNG} fluid alt='...' />
                         <a>
@@ -339,7 +339,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={drumsetPNG} fluid alt='...' />
                         <a>
@@ -356,7 +356,7 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={clockPNG} fluid alt='...' />
                         <a>
