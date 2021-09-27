@@ -220,18 +220,39 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-               
-
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Note Taker</Card.Title>
-                    <Card.Img src={noteTaker} />
-                    <Card.Body>
-                        <Card.Text>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={noteTaker} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>Note Taker</MDBCardTitle>
+                        <MDBCardText>
                             Note Taking App
-                        </Card.Text>
-                        <Button variant="secondary" href="https://fathomless-journey-02992.herokuapp.com/" target="blank">Deployment</Button>
-                    </Card.Body>
-                </Card>
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://fathomless-journey-02992.herokuapp.com/' target="blank">Heroku</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
+
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={noteTaker} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>JS Code Quiz</MDBCardTitle>
+                        <MDBCardText>
+                            Javascript Quiz App
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://fathomless-journey-02992.herokuapp.com/' target="blank">Heroku</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>JS Code Quiz</Card.Title>
