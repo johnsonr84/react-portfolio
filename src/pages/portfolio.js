@@ -83,38 +83,24 @@ const Portfolio = (props) => {
                     </MDBCardBody>
                 </MDBCard>
 
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Voyagr</Card.Title>
-                    <Card.Img src={voyagr} />
-                    <Card.Body>
-                        <Card.Text>
-                            Travel Journal App
-                        </Card.Text>
-                        <Button variant="secondary" href="https://mern-react-book.herokuapp.com/" target="blank">Deployment</Button>
-                    </Card.Body>
-                </Card>
 
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>React Book Search</Card.Title>
-                    <Card.Img src={reactBook} />
-                    <Card.Body>
-                        <Card.Text>
-                            Google Book Search
-                        </Card.Text>
-                        <Button variant="secondary" href="https://mern-react-book.herokuapp.com/" target="blank">Deployment</Button>
-                    </Card.Body>
-                </Card>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={employeeDirectory} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>React Employee Directory</MDBCardTitle>
+                        <MDBCardText>
+                            Find Employees List
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://johnsonr84.github.io/react-employee-directory/' target="blank">GH Pages</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
 
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>React Directory</Card.Title>
-                    <Card.Img src={employeeDirectory} />
-                    <Card.Body>
-                        <Card.Text>
-                            Find Employee List
-                        </Card.Text>
-                        <Button variant="secondary" href="https://johnsonr84.github.io/react-employee-directory/" target="blank">Deployment</Button>
-                    </Card.Body>
-                </Card>
+
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Workout Tracker</Card.Title>
