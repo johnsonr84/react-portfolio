@@ -287,18 +287,24 @@ const Portfolio = (props) => {
                     </MDBCardBody>
                 </MDBCard>
 
-             
 
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>MeoWoof</Card.Title>
-                    <Card.Img src={meoWoof} />
-                    <Card.Body>
-                        <Card.Text>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={meoWoof} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>MeoWoof</MDBCardTitle>
+                        <MDBCardText>
                             Pet Care/Tracker App
-                        </Card.Text>
-                        <Button variant="secondary" href="https://github.com/johnsonr84/meowoof" target="blank">Deployment</Button>
-                    </Card.Body>
-                </Card>
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://github.com/johnsonr84/meowoof' target="blank">Repository</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
+           
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Javascript Calculator</Card.Title>
