@@ -50,7 +50,7 @@ const Portfolio = (props) => {
             <Row className="projects display-flex mt-1 mb-1 justify-content-center">
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem'  }}>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center" }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                         <MDBCardImage src={voyagr} fluid alt='...' />
                         <a>
@@ -67,19 +67,19 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <MDBCard style={{ maxWidth: '20rem', margin: '1rem' }}>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                        <MDBCardImage src={voyagr} fluid alt='...' />
+                        <MDBCardImage src={reactBook} fluid alt='...' />
                         <a>
                             <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
                         </a>
                     </MDBRipple>
                     <MDBCardBody>
-                        <MDBCardTitle>Voyagr</MDBCardTitle>
+                        <MDBCardTitle>React Book Search</MDBCardTitle>
                         <MDBCardText>
-                            Travel Journal App
+                            Google Book Search
                         </MDBCardText>
-                        <MDBBtn color='secondary' href='https://voyagr.netlify.app/' target="blank">Deployment</MDBBtn>
+                        <MDBBtn color='secondary' href='https://mern-react-book.herokuapp.com/' target="blank">Deployment</MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
 
@@ -90,7 +90,7 @@ const Portfolio = (props) => {
                         <Card.Text>
                             Travel Journal App
                         </Card.Text>
-                        <Button variant="secondary" href="https://voyagr.netlify.app/" target="blank">Deployment</Button>
+                        <Button variant="secondary" href="https://mern-react-book.herokuapp.com/" target="blank">Deployment</Button>
                     </Card.Body>
                 </Card>
 
