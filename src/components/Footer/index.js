@@ -13,11 +13,10 @@ import gatsbyPNG from "./../../../src/assets/images/logos/gatsby.png";
 const Footer = (props) => {
     return (
 
-        <Container fluid className="p-0">
-          
+        <Container fluid className="pt-5 pb-2" style={{ backgroundColor: '#FAFAFA' }}>
                 <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
                     <MDBContainer className=''>
-                        <MDBRow className="text-center">
+                        <MDBRow className="text-center pt-5 pb-5">
                             <ul>
                                 <p className="text-center">designed by yours truly with</p>
                                 <img src={reactPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="react logo" />
@@ -30,15 +29,13 @@ const Footer = (props) => {
                             </ul>
                         </MDBRow>
                     </MDBContainer>
-                    <div className='text-center mt-5 mb-3' style={{ backgroundColor: '' }}>
+                    <div className='text-center mt-5 mb-3' >
                         &copy; {new Date().getFullYear()} Copyright:{' '}
                         <a className='text-dark' href='https://devdork.com/' style={{ textDecoration: 'none' }}>
                             devdork.com
                         </a>
                     </div>
                 </MDBFooter>
-
-           
         </Container>
 
     )
