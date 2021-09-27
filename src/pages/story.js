@@ -21,6 +21,9 @@ const Story = (props) => {
                     In addition, I hold a certificate in Front End Development from The Iron Yard and I have 1-year of professional experience.
                 </p>
                 <p>
+                    Currently, I am seeking work as a Full Stack Developer, while doing online classes with Harvard Extension School in Computer Science.
+                </p>
+                <p>
                     Keep scrolling to see more!
                 </p>
                 </Col >

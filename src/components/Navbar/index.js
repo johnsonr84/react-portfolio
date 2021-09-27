@@ -5,7 +5,7 @@ import "./style.css"
 const CustomNavbar = (props) => {
     return (
 
-        <Container className="">
+        <Container fluid className="">
             <Row>
                 <Navbar className="navbar">
 
