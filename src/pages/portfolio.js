@@ -100,6 +100,22 @@ const Portfolio = (props) => {
                     </MDBCardBody>
                 </MDBCard>
 
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={workoutTracker} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>Workout Tracker</MDBCardTitle>
+                        <MDBCardText>
+                            Workout Tracker
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://dry-castle-85403.herokuapp.com/' target="blank">Deployment</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
 
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
@@ -107,7 +123,7 @@ const Portfolio = (props) => {
                     <Card.Img src={workoutTracker} />
                     <Card.Body>
                         <Card.Text>
-                            Create/Track your workout
+                            Workout Tracker
                         </Card.Text>
                         <Button variant="secondary" href="https://dry-castle-85403.herokuapp.com/" target="blank">Deployment</Button>
                     </Card.Body>
