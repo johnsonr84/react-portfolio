@@ -186,17 +186,23 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Team Profile Generator</Card.Title>
-                    <Card.Img src={teamProfileGenerator} />
-                    <Card.Body>
-                        <Card.Text>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={teamProfileGenerator} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>Team Profile Generator</MDBCardTitle>
+                        <MDBCardText>
                             Node.js CLI App
-                        </Card.Text>
-                        <Button variant="secondary" href="https://johnsonr84.github.io/day-planner/" target="blank">GH Pages</Button>
-                    </Card.Body>
-                </Card>
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://github.com/johnsonr84/team-profile-generator' target="blank">Repository</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
+           
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Weather Dashboard</Card.Title>
