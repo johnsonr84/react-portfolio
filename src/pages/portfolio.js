@@ -339,18 +339,24 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-       
-
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Javascript Drumset</Card.Title>
-                    <Card.Img src={drumsetPNG} />
-                    <Card.Body>
-                        <Card.Text>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={drumsetPNG} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>Javascript Drumset</MDBCardTitle>
+                        <MDBCardText>
                             JS Keyboard Drumset
-                        </Card.Text>
-                        <Button variant="secondary" href="https://johnsonr84.github.io/javascript-drum-kit/" target="blank">GH Pages</Button>
-                    </Card.Body>
-                </Card>
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://johnsonr84.github.io/javascript-drum-kit/' target="blank">GH Pages</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
+
+                
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Javascript Clock</Card.Title>
