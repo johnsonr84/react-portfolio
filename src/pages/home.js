@@ -45,7 +45,7 @@ const Home = (props) => {
 
                 </Col >
             </Row>
-            <Row className="display-flex align-items-center text-center">
+            {/* <Row className="display-flex align-items-center text-center">
                 <Col md={2} className="display-flex align-items-center">
                     <MDBBtn rounded className='mx-1 shadow' style={{ backgroundColor: '#0082ca' }} floating size='lg' href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
                         <MDBIcon fab icon='linkedin-in' />
@@ -64,9 +64,9 @@ const Home = (props) => {
 
 
 
-                {/* <Col md={4}><a className="fab fa-github" href="https://github.com/johnsonr84?tab=repositories" target="blank" /></Col>
-                <a target="blank">Repositories</a> */}
-            </Row>
+                <Col md={4}><a className="fab fa-github" href="https://github.com/johnsonr84?tab=repositories" target="blank" /></Col>
+                <a target="blank">Repositories</a>
+            </Row> */}
         </Container>
 
     )

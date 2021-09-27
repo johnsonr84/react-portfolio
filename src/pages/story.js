@@ -6,7 +6,7 @@ const Story = (props) => {
     return (
     <Container>
         <Row className="display-flex align-items-center justify-content-center mx-auto vh-100">
-        <Col md={6}><img src={storyPNG} className="img-fluid" alt="..." /></Col>
+        <Col md={6}><img src={storyPNG} style={{maxHeight: '48rem', width: 'auto', paddingLeft: '100px' }} className="img-fluid" alt="..." /></Col>
         <Col md={6}>
                 <h3>
                     Thanks for stopping by! 
