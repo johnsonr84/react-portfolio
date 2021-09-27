@@ -135,27 +135,23 @@ const Portfolio = (props) => {
                 </MDBCard>
 
 
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Budget Tracker</Card.Title>
-                    <Card.Img src={budgetTracker} />
-                    <Card.Body>
-                        <Card.Text>
-                            Online/ Offline App
-                        </Card.Text>
-                        <Button variant="secondary" href="https://github.com/johnsonr84/pwa-budget-tracker" target="blank">Deployment</Button>
-                    </Card.Body>
-                </Card>
-
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Full Stack Burgers</Card.Title>
-                    <Card.Img src={fullStackBurgers} />
-                    <Card.Body>
-                        <Card.Text>
+                <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
+                    <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                        <MDBCardImage src={fullStackBurgers} fluid alt='...' />
+                        <a>
+                            <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                        </a>
+                    </MDBRipple>
+                    <MDBCardBody>
+                        <MDBCardTitle>Full Stack Burgers</MDBCardTitle>
+                        <MDBCardText>
                             Burger Order App
-                        </Card.Text>
-                        <Button variant="secondary" href="https://full-stack-burgers.herokuapp.com/" target="blank">Deployment</Button>
-                    </Card.Body>
-                </Card>
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://full-stack-burgers.herokuapp.com/' target="blank">Heroku</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
+
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
                     <Card.Title>Employee Management</Card.Title>
