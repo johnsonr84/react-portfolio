@@ -256,7 +256,7 @@ const Portfolio = (props) => {
 
                 <MDBCard style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center", }}>
                     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                        <MDBCardImage src={jsQuiz} fluid alt='...' />
+                        <MDBCardImage src={passGenerator} fluid alt='...' />
                         <a>
                             <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
                         </a>
@@ -264,22 +264,13 @@ const Portfolio = (props) => {
                     <MDBCardBody>
                         <MDBCardTitle>JS Code Quiz</MDBCardTitle>
                         <MDBCardText>
-                            Javascript Quiz App
-                        </MDBCardText>
-                        <MDBBtn color='secondary' href='https://johnsonr84.github.io/code-quiz-challenge/' target="blank">GH Pages</MDBBtn>
-                    </MDBCardBody>
-                </MDBCard>          
-
-                <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }}>
-                    <Card.Title>Password Generator</Card.Title>
-                    <Card.Img src={passGenerator} />
-                    <Card.Body>
-                        <Card.Text>
                             Create Password App
-                        </Card.Text>
-                        <Button variant="secondary" href="https://johnsonr84.github.io/password-generator/" target="blank">GH Pages</Button>
-                    </Card.Body>
-                </Card>
+                        </MDBCardText>
+                        <MDBBtn color='secondary' href='https://johnsonr84.github.io/password-generator/' target="blank">GH Pages</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+
+            
 
                 <Card style={{ width: '18rem', padding: '1rem', margin: '1rem', textAlign: "center" }} >
                     <Card.Title>Restaurant Roulette</Card.Title>
