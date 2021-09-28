@@ -35,7 +35,7 @@ const Home = (props) => {
                             {/* <MDBIcon fas icon='code-branch' />  */}
                             Projects
                         </MDBBtn>
-                        <MDBBtn className='mx-1 mt-1 hover-shadow-strong rounded-circle' style={{ backgroundColor: '#333333', border: 'none' }} href='https://github.com/johnsonr84' target='blank'>
+                        <MDBBtn className='mx-1 mt-1 hover-shadow-strong rounded-circle hover-color-green' style={{ backgroundColor: '#333333', border: 'none', hover: 'green' }} href='https://github.com/johnsonr84' target='blank'>
                             <MDBIcon fab icon='github' />
                         </MDBBtn>
                         <MDBBtn className='mx-1 mt-1 hover-shadow-strong rounded-circle' style={{ backgroundColor: '#0670AE', border: 'none' }} href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>

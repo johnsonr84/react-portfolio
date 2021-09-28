@@ -13,24 +13,24 @@ import gatsbyPNG from "./../../../src/assets/images/logos/gatsby.png";
 const Footer = (props) => {
     return (
 
-        <Container fluid className="pt-5 pb-2" style={{ backgroundColor: '#FAFAFA' }}>
+        <Container fluid className="pt-5 pb-2 mt-5" style={{ boxShadow: '20px 20px 20px 20px rgb(0 0 0 / 5%)' }}>
                 <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
                     <MDBContainer className=''>
-                        <MDBRow className="text-center pt-5 pb-5">
+                        <MDBRow className="text-center pt-5 pb-3">
                             <ul>
                                 <p className="text-center">designed by yours truly with</p>
-                                <img src={reactPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="react logo" />
-                                <img src={bootstrapPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="bootstrap logo" />
-                                <img src={htmlPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="html shield logo" />
-                                <img src={cssPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="css shield logo" />
-                                <img src={jsPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="javascript shield logo" />
-                                <img src={gatsbyPNG} width="40" height="45" className="d-inline-block align-top p-1" alt="gatsby shield logo" />
-                                <img src={nodePNG} width="40" height="45" className="d-inline-block align-top p-1" alt="node shield logo" />
+                                <img src={reactPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="react logo" />
+                                <img src={bootstrapPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="bootstrap logo" />
+                                <img src={htmlPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="html shield logo" />
+                                <img src={cssPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="css shield logo" />
+                                <img src={jsPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="javascript shield logo" />
+                                <img src={gatsbyPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="gatsby shield logo" />
+                                <img src={nodePNG} width="30" height="35" className="d-inline-block align-top p-1" alt="node shield logo" />
                             </ul>
                         </MDBRow>
                     </MDBContainer>
-                    <div className='text-center mt-5 mb-3' >
-                        &copy; {new Date().getFullYear()} Copyright:{' '}
+                    <div className='text-center mt-1 mb-3' >
+                        &copy; {new Date().getFullYear()} copyright:{' '}
                         <a className='text-dark' href='https://devdork.com/' style={{ textDecoration: 'none' }}>
                             devdork.com
                         </a>
