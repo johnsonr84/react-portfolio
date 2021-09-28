@@ -16,7 +16,7 @@ const Footer = (props) => {
         <Container fluid className="pt-5 pb-2 mt-5" style={{ boxShadow: '20px 20px 20px 20px rgb(0 0 0 / 5%)' }}>
                 <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
                     <MDBContainer className=''>
-                        <MDBRow className="text-center pt-5 pb-3">
+                        <MDBRow className="text-center pt-3 pb-3">
                             <ul>
                                 <p className="text-center">designed by yours truly with</p>
                                 <img src={reactPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="react logo" />
