@@ -4,6 +4,10 @@ import {
     MDBNavbar,
     MDBContainer,
     MDBNavbarBrand,
+    MDBIcon,
+    MDBNavbarNav,
+    MDBNavbarItem,
+    MDBNavbarLink
 } from 'mdb-react-ui-kit';
 import "./style.css"
 
@@ -36,6 +40,12 @@ const CustomNavbar = (props) => {
                         <Nav.Item>
                             <Nav.Link href="https://www.visualcv.com/robert-johnson/" target="none">Résumé</Nav.Link>
                         </Nav.Item>
+                        <MDBNavbarLink href='https://github.com/johnsonr84' target='blank'>
+                            <MDBIcon fab icon='github' />
+                        </MDBNavbarLink>
+                        <MDBNavbarLink href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
+                            <MDBIcon fab icon='linkedin' />
+                        </MDBNavbarLink>
                     </Nav>
                 </Col>
 
