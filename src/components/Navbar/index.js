@@ -1,71 +1,65 @@
-import React from 'react'
-import { Navbar, Container, Nav, Row, Col, NavDropdown } from 'react-bootstrap';
+import React, { useState } from 'react'
 import {
-    MDBNavbar,
     MDBContainer,
+    MDBRow,
+    MDBCol,
+    MDBNavbar,
     MDBNavbarBrand,
+    MDBNavbarToggler,
     MDBIcon,
     MDBNavbarNav,
     MDBNavbarItem,
-    MDBNavbarLink
+    MDBNavbarLink,
+    MDBCollapse
 } from 'mdb-react-ui-kit';
+
 import "./style.css"
 
-const CustomNavbar = (props) => {
+
+export default function CustomNavbar() {
+    const [showNavRight, setShowNavRight] = useState(false);
+
     return (
-        <MDBNavbar sticky light bgColor='light'>
+        <MDBNavbar sticky expand='md' light bgColor='light' >
             <MDBContainer fluid>
+                <MDBNavbarBrand href='#' className='me-2 me-lg-0'>Rob C Johnson</MDBNavbarBrand>
 
-                <Col>
-                    <Nav>
-                        <ul>
-                            <li>
-                                <MDBNavbarBrand href='#'>Rob C Johnson</MDBNavbarBrand>
-                            </li>
-                        </ul>
-                    </Nav>
-                </Col>
+                <MDBNavbarToggler
+                    type='button'
+                    aria-expanded='false'
+                    aria-label='Toggle navigation'
+                    onClick={() => setShowNavRight(!showNavRight)}
+                >
+                    <MDBIcon icon='bars' fas />
+                </MDBNavbarToggler>
 
-                <Col xs={6}>
-                    <Nav className="pages justify-content-center p-2">
-                        <Nav.Item>
-                            <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#Story">Story</Nav.Link>
-                        </Nav.Item>
-                        {/* <Nav.Item>
-                                <Nav.Link href="#Contact">Contact</Nav.Link>
-                            </Nav.Item> */}
-                        <Nav.Item>
-                            <Nav.Link href="https://www.visualcv.com/robert-johnson/" target="none">Résumé</Nav.Link>
-                        </Nav.Item>
-                        <MDBNavbarLink href='https://github.com/johnsonr84' target='blank'>
-                            <MDBIcon fab icon='github' />
-                        </MDBNavbarLink>
-                        <MDBNavbarLink href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
-                            <MDBIcon fab icon='linkedin' />
-                        </MDBNavbarLink>
-                    </Nav>
-                </Col>
+                <MDBCollapse navbar show={showNavRight} >
+                    <MDBNavbarNav right fullWidth={false} className='mr-auto'>
+                        <MDBNavbarItem className='me-2 me-lg-0'>
+                            <MDBNavbarLink href='#Portfolio'>Portfolio</MDBNavbarLink>
+                        </MDBNavbarItem>
+                        <MDBNavbarItem className='me-2 me-lg-0'>
+                            <MDBNavbarLink href='#Story'>Story</MDBNavbarLink>
+                        </MDBNavbarItem>
+                        <MDBNavbarItem className='me-2 me-lg-0'>
+                            <MDBNavbarLink href="https://www.visualcv.com/robert-johnson/" target="blank">Résumé</MDBNavbarLink>
+                        </MDBNavbarItem>
+                        <MDBNavbarItem className='me-2 me-lg-0'>
+                            <MDBNavbarLink href='https://github.com/johnsonr84' target='blank'>
+                                <MDBIcon className='ms-1' fab icon='github' size='lg' />
+                            </MDBNavbarLink>
+                        </MDBNavbarItem>
+                        <MDBNavbarItem className='me-2 me-lg-0'>
+                            <MDBNavbarLink href='https://www.linkedin.com/in/robertjohnson1984/' target='blank'>
+                                <MDBIcon className='ms-1' fab icon='linkedin-in' size='lg' />
+                            </MDBNavbarLink>
+                        </MDBNavbarItem>
 
-                <Col>
-                    <Nav className="justify-content-end pb-2">
-                        <NavDropdown title="Menu">
-                            <NavDropdown.Item href="#">DevDork</NavDropdown.Item>
-                            <NavDropdown.Item href="#Portfolio">Portfolio</NavDropdown.Item>
-                            <NavDropdown.Item href="#Story">Story</NavDropdown.Item>
-                            <NavDropdown.Item href="#Contact">Contact</NavDropdown.Item>
-                            <NavDropdown.Item href="https://www.visualcv.com/robert-johnson/" target="none">Resume</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="https://github.com/johnsonr84" target="none">Github</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                </Col>
+                    </MDBNavbarNav>
+                </MDBCollapse>
             </MDBContainer>
         </MDBNavbar>
 
     )
 }
 
-export default CustomNavbar;
