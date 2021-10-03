@@ -1,14 +1,7 @@
 import React from 'react'
 import { Container, Nav, Row } from 'react-bootstrap';
 import { MDBFooter, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
-import reactPNG from "./../../../src/assets/images/logos/react.png";
-import bootstrapPNG from "./../../../src/assets/images/logos/bootstrap.png";
-import htmlPNG from "./../../../src/assets/images/logos/html.png";
-import cssPNG from "./../../../src/assets/images/logos/css.png";
-import jsPNG from "./../../../src/assets/images/logos/js.png";
-import nodePNG from "./../../../src/assets/images/logos/node.png";
-import gatsbyPNG from "./../../../src/assets/images/logos/gatsby.png";
-
+import { MDBIcon } from 'mdb-react-ui-kit';
 
 const Footer = (props) => {
     return (
@@ -18,20 +11,23 @@ const Footer = (props) => {
                     <MDBContainer className=''>
                         <MDBRow className="text-center pt-3 pb-3">
                             <ul>
-                                <p className="text-center">designed by yours truly with</p>
-                                <img src={reactPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="react logo" />
-                                <img src={bootstrapPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="bootstrap logo" />
-                                <img src={htmlPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="html shield logo" />
-                                <img src={cssPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="css shield logo" />
-                                <img src={jsPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="javascript shield logo" />
-                                <img src={gatsbyPNG} width="30" height="35" className="d-inline-block align-top p-1" alt="gatsby shield logo" />
-                                <img src={nodePNG} width="30" height="35" className="d-inline-block align-top p-1" alt="node shield logo" />
+                                <p className="text-center" style={{ fontSize: '12px'}} >Designed by yours truly with</p>
+                                <MDBIcon className='ms-1' fab icon='react' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='js' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='bootstrap' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='mdb' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='html5' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='css3-alt' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='sass' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='npm' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='git' size='lg' />
+                                <MDBIcon className='ms-1' fab icon='node-js' size='lg' />
                             </ul>
                         </MDBRow>
                     </MDBContainer>
-                    <div className='text-center mt-1 mb-3' >
+                    <div className='text-center mt-1 mb-3' style={{ fontSize: '12px'}} >
                         &copy; {new Date().getFullYear()} copyright:{' '}
-                        <a className='text-dark' href='https://devdork.com/' style={{ textDecoration: 'none' }}>
+                        <a className='text-dark' href='https://devdork.com/' style={{ textDecoration: 'none', fontSize: '12px'}}>
                             devdork.com
                         </a>
                     </div>
