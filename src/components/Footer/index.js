@@ -6,9 +6,9 @@ import { MDBIcon } from 'mdb-react-ui-kit';
 const Footer = (props) => {
     return (
 
-        <Container fluid className="pt-5 pb-2 mt-5" style={{ boxShadow: '20px 20px 20px 20px rgb(0 0 0 / 5%)' }}>
+       
                 <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
-                    <MDBContainer className=''>
+                    <MDBContainer fluid className='pt-5 mt-5'>
                         <MDBRow className="text-center pt-3">
                             <ul>
                                 <p className="text-center" style={{ fontSize: '12px'}} >Designed by yours truly with<MDBIcon className='ms-1' fab icon='react' size='lg' /></p>
@@ -32,7 +32,7 @@ const Footer = (props) => {
                         </a>
                     </div>
                 </MDBFooter>
-        </Container>
+      
 
     )
 }
