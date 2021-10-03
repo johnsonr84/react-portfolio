@@ -13,7 +13,7 @@ const Footer = (props) => {
                     <p className="text-center" style={{ fontSize: '12px' }} >Designed by yours truly with<MDBIcon className='ms-1' fab icon='react' size='lg' /></p>
                 </MDBRow>
             </MDBContainer>
-            <div className='text-center  mb-3' style={{ fontSize: '12px' }} >
+            <div className='text-center mb-3' style={{ fontSize: '12px' }} >
                 &copy; {new Date().getFullYear()} copyright:{' '}
                 <a className='text-dark' href='https://devdork.com/' style={{ textDecoration: 'none', fontSize: '12px' }}>
                     devdork.com
