@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import {
     MDBContainer,
-    MDBRow,
-    MDBCol,
     MDBNavbar,
     MDBNavbarBrand,
     MDBNavbarToggler,
@@ -22,7 +20,7 @@ export default function CustomNavbar() {
     return (
         <MDBNavbar sticky expand='md' light bgColor='light' >
             <MDBContainer fluid>
-                <MDBNavbarBrand href='#' className='me-2 me-lg-0'>Rob C Johnson</MDBNavbarBrand>
+                <MDBNavbarBrand href='#' className='me-2 me-lg-0'>DevDork</MDBNavbarBrand>
 
                 <MDBNavbarToggler
                     type='button'
