@@ -1,6 +1,7 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
 import homePNG from "../assets/images/rob/rob-5.png";
+import badge from "../assets/images/logos/coding-bootcamp-full-stack-developer-certificate.1.png"
 
 const Home = (props) => {
     return (
@@ -34,6 +35,14 @@ const Home = (props) => {
                         </MDBBtn>
                     </div>
                 </MDBCol >
+            </MDBRow>
+            <MDBRow className="align-items-center justify-content-center  vh-100">
+                <MDBCol md={8}>
+                    <MDBCard>
+                        <MDBCardBody>I have demonstrated working knowledge of Bootstrap, CSS, Express.js, Git, Github, Heroku, HTML (HTML5), JavaScript, JQuery, MongoDB, MySQL, Node.js, React, SEO, Responsive Design, API/JSON, RESTful API, State Management, Command Line, Database Theory, Agile Methodologies, Quality Assurance Testing, Social Coding Best Practices, Computer Science Fundamentals.</MDBCardBody>
+                    </MDBCard>
+                </MDBCol >
+                <MDBCol md={4}><img src={badge} className="img-fluid" alt="..." /></MDBCol>
             </MDBRow>
         </MDBContainer>
 
