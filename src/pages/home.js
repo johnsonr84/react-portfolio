@@ -7,8 +7,8 @@ const Home = (props) => {
     return (
         <MDBContainer>
             <MDBRow className="display-flex align-items-center justify-content-center mx-auto vh-100">
-                <MDBCol md={8}><img src={homePNG} className="img-fluid" alt="..." /></MDBCol>
-                <MDBCol md={4}>
+                <MDBCol size='8'><img src={homePNG} className="img-fluid" alt="..." /></MDBCol>
+                <MDBCol size='4'>
                     <h1>
                         Hey! I'm Rob.
                     </h1>
@@ -29,20 +29,20 @@ const Home = (props) => {
                         Currently, I am seeking work as a Full Stack Developer, while doing online classes with Harvard Extension School in Computer Science.
                     </p>
                     <div className='pt-2'>
-                        <MDBBtn size='lg' className='mt-1 p-3 hover-shadow-strong' color='dark' style={{ border: 'none', fontSize: '14px' }} href="#Portfolio">
+                        <MDBBtn size='lg' className='mt-1 p-3 shadow' color='dark' style={{ border: 'none', fontSize: '14px' }} href="#Portfolio">
                             {/* <MDBIcon fas icon='code-branch' />  */}
                             Projects
                         </MDBBtn>
                     </div>
                 </MDBCol >
             </MDBRow>
-            <MDBRow className="align-items-center justify-content-center  vh-100">
-                <MDBCol md={8}>
-                    <MDBCard>
+            <MDBRow center className="">
+                <MDBCol size='8' className="justify-content-end text-end" >
+                    <MDBCard fluid className='shadow-2-strong' style={{   padding: '2rem', textAlign: "center", }}>
                         <MDBCardBody>I have demonstrated working knowledge of Bootstrap, CSS, Express.js, Git, Github, Heroku, HTML (HTML5), JavaScript, JQuery, MongoDB, MySQL, Node.js, React, SEO, Responsive Design, API/JSON, RESTful API, State Management, Command Line, Database Theory, Agile Methodologies, Quality Assurance Testing, Social Coding Best Practices, Computer Science Fundamentals.</MDBCardBody>
                     </MDBCard>
                 </MDBCol >
-                <MDBCol md={4}><img src={badge} className="img-fluid" alt="..." /></MDBCol>
+                <MDBCol size='4'><img src={badge} className="img-fluid" alt="..." /></MDBCol>
             </MDBRow>
         </MDBContainer>
 
