@@ -36,7 +36,7 @@ const Home = (props) => {
                     </div>
                 </MDBCol >
             </MDBRow>
-            <MDBRow center className="">
+            <MDBRow center className="align-items-center" style={{ height: '800px', paddingTop: '200px', paddingBottom: '200px' }}>
                 <MDBCol size='8' className="justify-content-end text-end" >
                     <MDBCard fluid className='shadow-2-strong' style={{   padding: '2rem', textAlign: "center", }}>
                         <MDBCardBody>I have demonstrated working knowledge of Bootstrap, CSS, Express.js, Git, Github, Heroku, HTML (HTML5), JavaScript, JQuery, MongoDB, MySQL, Node.js, React, SEO, Responsive Design, API/JSON, RESTful API, State Management, Command Line, Database Theory, Agile Methodologies, Quality Assurance Testing, Social Coding Best Practices, Computer Science Fundamentals.</MDBCardBody>
