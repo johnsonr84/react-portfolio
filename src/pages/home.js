@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
 import homePNG from "../assets/images/rob/rob-5.png";
-import laptop from "../assets/images/devices/laptop1.png"
+import laptop from "../assets/images/devices/laptop.png"
 
 const Home = (props) => {
     return (
@@ -37,12 +37,12 @@ const Home = (props) => {
                 </MDBCol >
             </MDBRow>
             <MDBRow center className="align-items-center" style={{ height: '800px', paddingTop: '200px', paddingBottom: '200px' }}>
-                <MDBCol size='8' className="justify-content-end text-end">
+                <MDBCol size='6' className="justify-content-end text-end">
                     <MDBCard fluid className='shadow-2-strong' style={{   padding: '2rem', textAlign: "center", }}>
                         <MDBCardBody>I have demonstrated working knowledge of Bootstrap, CSS, Express.js, Git, Github, Heroku, HTML (HTML5), JavaScript, JQuery, MongoDB, MySQL, Node.js, React, SEO, Responsive Design, API/JSON, RESTful API, State Management, Command Line, Database Theory, Agile Methodologies, Quality Assurance Testing, Social Coding Best Practices, Computer Science Fundamentals.</MDBCardBody>
                     </MDBCard>
                 </MDBCol >
-                <MDBCol size='4'><img src={laptop} className="img-fluid" alt="..." /></MDBCol>
+                <MDBCol size='6'><img src={laptop} className="img-fluid" alt="..." /></MDBCol>
             </MDBRow>
         </MDBContainer>
 
