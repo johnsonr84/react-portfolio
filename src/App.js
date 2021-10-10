@@ -7,7 +7,7 @@ import Story from "./pages/story"
 // import Contact from "./pages/contact"
 import Navbar from './components/Navbar'
 import Nav from './components/Footer'
-import {  Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 
 function App() {

@@ -20,7 +20,7 @@ export default function CustomNavbar() {
     return (
         <MDBNavbar sticky expand='md' light bgColor='light' >
             <MDBContainer fluid>
-                <MDBNavbarBrand href='#' className='me-2 me-lg-0'>DevDork</MDBNavbarBrand>
+                <MDBNavbarBrand href='#' className='me-2 me-lg-0'><strong>DevDork</strong></MDBNavbarBrand>
 
                 <MDBNavbarToggler
                     type='button'
@@ -60,4 +60,3 @@ export default function CustomNavbar() {
 
     )
 }
-
