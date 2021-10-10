@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Nav, Row } from 'react-bootstrap';
 import { MDBFooter, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 import { MDBIcon } from 'mdb-react-ui-kit';
 

@@ -1,7 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-
-import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
 import portfolioPNG from "../assets/images/rob/rob-6.png";
 import restaurantRoulette from "../assets/images/projects/restaurant-roulette.png";
 import meoWoof from "../assets/images/projects/meowoof.png";
@@ -26,10 +24,10 @@ import clockPNG from "../assets/images/projects/countdown-clock.png";
 
 const Portfolio = (props) => {
     return (
-        <Container className="display-flex" >
-            <Row className="display-flex align-items-center justify-content-center mx-auto vh-100">
-                <Col md={6}><img src={portfolioPNG} className="img-fluid" alt="..." /></Col>
-                <Col md={6}>
+        <MDBContainer className="display-flex" >
+            <MDBRow className="display-flex align-items-center justify-content-center mx-auto vh-100">
+                <MDBCol md={6}><img src={portfolioPNG} className="img-fluid" alt="..." /></MDBCol>
+                <MDBCol md={6}>
                     <h3>
                         Let's Build Something!
                     </h3>
@@ -42,12 +40,12 @@ const Portfolio = (props) => {
                     <p className='pt-2'>
                         MongoDB, Express.js, React.js, Node.js, HTML, CSS, JavaScript, MySQL, API's and Bootstrap.
                     </p>
-                </Col >
-            </Row>
+                </MDBCol >
+            </MDBRow>
 
 
 
-            <Row className="projects display-flex mt-1 mb-1 justify-content-center">
+            <MDBRow className="projects display-flex mt-1 mb-1 justify-content-center">
 
 
                 <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center" }}>
@@ -372,9 +370,9 @@ const Portfolio = (props) => {
                     </MDBCardBody>
                 </MDBCard>
 
-            </Row>
+            </MDBRow>
 
-        </Container>
+        </MDBContainer>
     )
 }
 
