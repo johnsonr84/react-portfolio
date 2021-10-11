@@ -18,9 +18,9 @@ export default function CustomNavbar() {
     const [showNavRight, setShowNavRight] = useState(false);
 
     return (
-        <MDBNavbar sticky expand='md' light bgColor='light' >
+        <MDBNavbar sticky expand='md' light bgColor='white' style={{ boxShadow: 'none' }} >
             <MDBContainer fluid>
-                <MDBNavbarBrand href='#' className='me-2 me-lg-0'><strong>DevDork</strong></MDBNavbarBrand>
+                <MDBNavbarBrand href='#' className='me-2 me-lg-0'>DevDork</MDBNavbarBrand>
 
                 <MDBNavbarToggler
                     type='button'
@@ -38,6 +38,9 @@ export default function CustomNavbar() {
                         </MDBNavbarItem>
                         <MDBNavbarItem className='me-2 me-lg-0'>
                             <MDBNavbarLink href='#Story'>Story</MDBNavbarLink>
+                        </MDBNavbarItem>
+                        <MDBNavbarItem className='me-2 me-lg-0'>
+                            <MDBNavbarLink href='#Contact'>Contact</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem className='me-2 me-lg-0'>
                             <MDBNavbarLink href="https://www.visualcv.com/robert-johnson/" target="blank">Résumé</MDBNavbarLink>
