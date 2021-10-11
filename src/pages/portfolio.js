@@ -25,7 +25,7 @@ import clockPNG from "../assets/images/projects/countdown-clock.png";
 const Portfolio = (props) => {
     return (
         <MDBContainer className="display-flex" >
-            <MDBRow className="display-flex align-items-center justify-content-center mx-auto vh-100">
+            <MDBRow className="display-flex align-items-center justify-content-center">
                 <MDBCol md={6}><img src={portfolioPNG} className="img-fluid" alt="..." /></MDBCol>
                 <MDBCol md={6}>
                     <h3>
@@ -45,7 +45,7 @@ const Portfolio = (props) => {
 
 
 
-            <MDBRow className="projects display-flex mt-1 mb-1 justify-content-center">
+            <MDBRow className="projects display-flex mt-1 mb-1 justify-content-center mt-5">
 
 
                 <MDBCard className='hover-shadow' style={{ maxWidth: '20rem', margin: '1rem', textAlign: "center" }}>
