@@ -7,7 +7,7 @@ function ContactPage() {
         <MDBContainer fluid className="display-flex">
         <section className="my-5 m-2">
             <MDBRow fluid className='display-flex align-items-center justify-content-center'>
-                <MDBCol md={5} className="text-center"><img src={contactPNG} className="img-fluid" alt="..." style={{ minHeight: 'auto', maxHeight: '600px' }} /></MDBCol>
+                <MDBCol md={5} className="text-center"><img src={contactPNG} className="img-fluid" alt="..." style={{ minHeight: 'auto', maxHeight: '650px' }} /></MDBCol>
                 <MDBCol md={5} className="mb-5">
                     <MDBCard className="hover-shadow mt-2">
                         <MDBCardBody>
@@ -16,10 +16,10 @@ function ContactPage() {
                                     <MDBIcon icon="envelope" /> Hit me up:
                                 </h3>
                             </div>
-                            <p className="dark-grey-text p-2">
+                            <p className="dark-grey-text p-1">
                                 I'll get back to you asap!
                             </p>
-                            <div className="md-form p-2">
+                            <div className="md-form p-1">
                                 <MDBInput
                                     icon="user"
                                     label="Your name"
@@ -27,7 +27,7 @@ function ContactPage() {
                                     type="text"
                                     id="form-name" />
                             </div>
-                            <div className="md-form p-2">
+                            <div className="md-form p-1">
                                 <MDBInput
                                     icon="envelope"
                                     label="Your email"
@@ -35,7 +35,7 @@ function ContactPage() {
                                     type="text"
                                     id="form-email" />
                             </div>
-                            <div className="md-form p-2">
+                            <div className="md-form p-1">
                                 <MDBInput
                                     icon="tag"
                                     label="Subject"
@@ -43,7 +43,7 @@ function ContactPage() {
                                     type="text"
                                     id="form-subject" />
                             </div>
-                            <div className="md-form p-2">
+                            <div className="md-form p-1">
                                 <MDBInput
                                     icon="pencil-alt"
                                     // label="Icon Prefix"
