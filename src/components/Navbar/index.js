@@ -40,6 +40,9 @@ export default function CustomNavbar() {
                             <MDBNavbarLink href='#Story'>Story</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem className='me-2 me-lg-0'>
+                            <MDBNavbarLink href='#Blog'>Blog</MDBNavbarLink>
+                        </MDBNavbarItem>
+                        <MDBNavbarItem className='me-2 me-lg-0'>
                             <MDBNavbarLink href='#Contact'>Contact</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem className='me-2 me-lg-0'>
