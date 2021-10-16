@@ -1,6 +1,8 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBCardTitle, MDBIcon  } from 'mdbreact';
 import homePNG from "../assets/images/rob/rob-5.png";
+import tiyPNG from "../assets/images/certifications/tiyCert.png";
+import uofuPNG from "../assets/images/certifications/uofuCert.png";
 // import laptop from "../assets/images/devices/laptop.png"
 
 const Home = (props) => {
@@ -43,7 +45,10 @@ const Home = (props) => {
           className='card-image'
           style={{
             backgroundImage:
-              "url('https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg')"
+            `url(${uofuPNG})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
           }}
         >
           <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
@@ -73,7 +78,10 @@ const Home = (props) => {
           className='card-image'
           style={{
             backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
+            `url(${tiyPNG})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
           }}
         >
           <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
