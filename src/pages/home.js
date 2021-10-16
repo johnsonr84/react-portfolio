@@ -44,13 +44,6 @@ const Home = (props) => {
                 <Certifications />
             </MDBRow>
 
-            <MDBRow center className="position-relative align-items-center justify-content-center mx-auto vh-100" style={{ height: '800px', paddingTop: '200px', paddingBottom: '200px' }}>
-                <MDBCard fluid className='shadow-2-strong' style={{ padding: '2rem', textAlign: "center", zIndex: '2' }}>
-                    <MDBCardBody>I have demonstrated working knowledge of Bootstrap, CSS, Express.js, Git, Github, Heroku, HTML (HTML5), JavaScript, JQuery, MongoDB, MySQL, Node.js, React, SEO, Responsive Design, API/JSON, RESTful API, State Management, Command Line, Database Theory, Agile Methodologies, Quality Assurance Testing, Social Coding Best Practices, Computer Science Fundamentals.</MDBCardBody>
-
-                </MDBCard>
-                {/* <img src={laptop} className="img-fluid" alt="..." style={{ paddingLeftt: '400px', zIndex: '1' }}/> */}
-            </MDBRow>
         </MDBContainer>
 
     )
