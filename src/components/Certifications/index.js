@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, MDBCard, MDBCardTitle, MDBBtn, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
+import { MDBContainer, MDBCard, MDBCardTitle, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 import tiyPNG from "../../../src/assets/images/certifications/tiyCert.png";
