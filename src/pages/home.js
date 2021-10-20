@@ -10,8 +10,8 @@ const Home = (props) => {
     return (
         <MDBContainer >
             <MDBRow className="display-flex align-items-center justify-content-center mx-auto vh-100" >
-                <MDBCol lg={8}><img src={homePNG} className="img-fluid" alt="..." /></MDBCol>
-                <MDBCol lg={4}>
+                <MDBCol lg={5}><img src={homePNG} className="img-fluid" alt="..." /></MDBCol>
+                <MDBCol lg={5}>
                     <h1>
                         Hey! I'm Rob.
                     </h1>
