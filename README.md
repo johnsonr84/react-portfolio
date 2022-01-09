@@ -1,29 +1,32 @@
-# react-portfolio
+  <h1 align="center"><a href="https://www.devdork.com/"> React Portfolio 📈</a></h1>
+
+  ## Description 
+  React Portfolio website that showcases various projects, information about myself, how to contact me and my current resume.
 
   [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
-  [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/react-portfolio)
-  [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/react-portfolio)
+  [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/react-portfolio?color=orange)](https://github.com/johnsonr84/react-portfolio)
+  [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/react-portfolio?color=yellow)](https://github.com/johnsonr84/react-portfolio)
   [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
   [![node.js](https://img.shields.io/node/v/c?color=brightgreen)](https://nodejs.org/en/)
   [![npm](https://img.shields.io/npm/v/npm?color=blue&logo=npm)](https://www.npmjs.com/package/inquirer)
 
+  ## Built With
+  [![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+   [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
+
   ## Table of Contents 
   * [Description](#Description)
-  * [Outcome](#Outcome)
   * [Project URL](#Project-URL)
-  * [Website Link](#WebsiteLink)
-  * [Screenshots](#Screenshots)
-  * [Technologies](#Technologies)
+  * [Deployment](#Deployment)
+  * [Demo/Screenshots](#Demo/Screenshots)
   * [Installation](#Installation)
+  * [Usage](#Usage)
   * [Credits](#Credits)
   * [License](#License)
   * [Resources](#Resources)
   * [Contact](#Contact)
-  * [Designed and built by](#Designed-and-built-by)
+  * [Author](#Author)
   #
-  
-  ## Description 
-  React Portfolio website that showcases various projects, information about myself, how to contact me and my current resume.
   
   ## Outcome
   * It is optimized for SEO and ARIA accessibility 
@@ -36,13 +39,21 @@
   * [Devdork](https://www.devdork.com/)
   * [https://johnsonr84.github.io/react-portfolio/](https://johnsonr84.github.io/react-portfolio/)
 
-  ## Screenshots
+  ## Demo/Screenshots
   <table>
     <tr>
-      <td>react-portfolio example</td>
+      <td>React Home Page Example</td>
     </tr>
     <tr>
-      <td><img src="" height=600 alt="screenshot of react-portfolio"></td>
+      <td><img src="home.png" height=600 alt="screenshot of react-portfolio"></td>
+    </tr>
+  </table>
+   <table>
+    <tr>
+      <td>React Portfolio Example</td>
+    </tr>
+    <tr>
+      <td><img src="portfolio.png" height=600 alt="screenshot of react-portfolio"></td>
     </tr>
   </table>
 
@@ -87,6 +98,6 @@
   ## Contact
   Email: robertcjohnson1984@gmail.com 
 
-  ## Designed and built by
+  ## Author
   Author(s): Rob Johnson  
   GitHub: https://github.com/johnsonr84/ 
