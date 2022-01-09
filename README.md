@@ -1,4 +1,4 @@
-  <h1 align="center"><a href="https://www.devdork.com/"> React Portfolio 📈</a></h1>
+  <h1 align="center"><a href="https://www.devdork.com/"> React Portfolio 🚀</a></h1>
 
   ## Description 
   React Portfolio website that showcases various projects, information about myself, how to contact me and my current resume.
